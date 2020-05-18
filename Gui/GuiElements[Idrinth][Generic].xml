@@ -1,0 +1,18 @@
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Documentation/Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+  <ExtendedGuiElement Name="HeroSkill01BranchGenericIdrinth">
+    <Title>%HeroSkillIdrinthLeadingAsExample_Title</Title>
+    <Description>%HeroSkillIdrinthLeadingAsExample_Description</Description>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="HeroSkill02BranchGenericIdrinth">
+    <Title>%HeroSkillIdrinthCommanderOfGreatBattles_Title</Title>
+    <Description>%HeroSkillIdrinthCommanderOfGreatBattles_Description</Description>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="HeroSkill03BranchGenericIdrinth">
+    <Title>%HeroSkillIdrinthSignOfProgress_Title</Title>
+    <Description>%HeroSkillIdrinthSignOfProgress_Description</Description>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="HeroSkill04BranchGenericIdrinth">
+    <Title>%HeroSkillIdrinthTrustworthyContacts_Title</Title>
+    <Description>%HeroSkillIdrinthTrustworthyContacts_Description</Description>
+  </ExtendedGuiElement>
+</Datatable>

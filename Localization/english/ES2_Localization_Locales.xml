@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LocalizationPair Name="%HeroSkillIdrinthLeadingAsExample_Title">Leading as Example</LocalizationPair>
+  <LocalizationPair Name="%HeroSkillIdrinthLeadingAsExample_Description">As an example to others the hero inspires those that he leads to do more for less.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkillIdrinthCommanderOfGreatBattles_Title">Commander of Great Battles</LocalizationPair>
+  <LocalizationPair Name="%HeroSkillIdrinthCommanderOfGreatBattles_Description">Willing to fight the longest, most drawn out battles, the hero maximises the potential before the first gun is shot.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkillIdrinthSignOfProgress_Title">Sign of Progress</LocalizationPair>
+  <LocalizationPair Name="%HeroSkillIdrinthSignOfProgress_Description">As a symbol of personal and societal groth, the hero leads to others following suite.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkillIdrinthTrustworthyContacts_Title">Trustworthy Contacts</LocalizationPair>
+  <LocalizationPair Name="%HeroSkillIdrinthTrustworthyContacts_Description">A hero of sufficient fame gains admireres and fans among all parts of society. Some of these can provide access to goods otherwise hard to get.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkillIdrinthCommanderOfGreatFleets_Title">Commander of great Fleets</LocalizationPair>
+  <LocalizationPair Name="%HeroSkillIdrinthCommanderOfGreatFleets_Description">A distinguished commander, even among others can often control even more ships at sufficient levels to outmaneuvre his enemies.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkillIdrinthKillerOfFiends_Title">Killer of Fiends</LocalizationPair>
+  <LocalizationPair Name="%HeroSkillIdrinthKillerOfFiends_Description">A hero is there to hunt dragons, kill monsters and protect the innocent. This one excells at the first two.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkillIdrinthSaveAndSound_Title">Save and sound</LocalizationPair>
+  <LocalizationPair Name="%HeroSkillIdrinthSaveAndSound_Description">Experience in all political matters leads to plans that are nearly impossible to prevent from coiming to fruition.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkillIdrinthAVoiceToCharm_Title">A Voice to charm</LocalizationPair>
+  <LocalizationPair Name="%HeroSkillIdrinthAVoiceToCharm_Description">Combining natural abilities and years of training with some well written speaches can raise armies and win wars without a shot being fired.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkillIdrinthOptimizedBookkeeping_Title">Optimized Bookkeeping</LocalizationPair>
+  <LocalizationPair Name="%HeroSkillIdrinthOptimizedBookkeeping_Description">A few selective redistributions here, a few rarely used laws there and somehow there are resources out of nothing - or so it seems.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkillIdrinthTaxesAndReturns_Title">Taxes and Returns</LocalizationPair>
+  <LocalizationPair Name="%HeroSkillIdrinthTaxesAndReturns_Description">Optimizing the local tax system leads to way smaller losses to oil the wheels, increasing the profits in the end.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkillIdrinthCommanderOfWelltrainedShips_Title">Commander of well trained ships</LocalizationPair>
+  <LocalizationPair Name="%HeroSkillIdrinthCommanderOfWelltrainedShips_Description">A commander is never better than the weakest link in his staff. This one took it too heart, forging the strongest possible weak link.</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkillIdrinthAllPowerToShields_Title">All power to shields</LocalizationPair>
+  <LocalizationPair Name="%HeroSkillIdrinthAllPowerToShields_Description">Forgoing offence, this commander focusses on survival. After all, a dead ally won't be able to shoot anyone, right?</LocalizationPair>
+</Datatable>

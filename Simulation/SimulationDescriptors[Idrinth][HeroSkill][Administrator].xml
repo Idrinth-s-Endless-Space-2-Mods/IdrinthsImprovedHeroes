@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+    <SimulationDescriptor Name="HeroSkill_Idrinth_OptimizedBookkeeping_System" Type="HeroSkillSystem" IsSerializable="false">
+        <BinaryModifier TargetProperty="Upkeep" Operation="Percent" Left="-0.01" Right="$(AssignedHeroLevel)" BinaryOperation="Multiplication" Path="ClassColonizedStarSystem"/>
+        <BinaryModifier TargetProperty="SystemGrowth" Operation="Addition" Left="0.5" Right="$(AssignedHeroLevel)" BinaryOperation="Multiplication" Path="ClassColonizedStarSystem"/>
+        <BinaryModifier TargetProperty="SystemMoney" Operation="Addition" Left="0.5" Right="$(AssignedHeroLevel)" BinaryOperation="Multiplication" Path="ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="HeroSkill_Idrinth_TaxesAndReturns" Type="HeroSkill" IsSerializable="false">
+        <BinaryModifier TargetProperty="NetLuxury1" Operation="Addition" Left="0.01" Right="$(Level)" BinaryOperation="Multiplication" Path="../ClassEmpire"/>
+        <BinaryModifier TargetProperty="NetLuxury2" Operation="Addition" Left="0.01" Right="$(Level)" BinaryOperation="Multiplication" Path="../ClassEmpire"/>
+        <BinaryModifier TargetProperty="NetLuxury3" Operation="Addition" Left="0.01" Right="$(Level)" BinaryOperation="Multiplication" Path="../ClassEmpire"/>
+        <BinaryModifier TargetProperty="NetLuxury4" Operation="Addition" Left="0.01" Right="$(Level)" BinaryOperation="Multiplication" Path="../ClassEmpire"/>
+        <BinaryModifier TargetProperty="NetLuxury5" Operation="Addition" Left="0.01" Right="$(Level)" BinaryOperation="Multiplication" Path="../ClassEmpire"/>
+        <BinaryModifier TargetProperty="NetLuxury6" Operation="Addition" Left="0.01" Right="$(Level)" BinaryOperation="Multiplication" Path="../ClassEmpire"/>
+        <BinaryModifier TargetProperty="NetLuxury7" Operation="Addition" Left="0.01" Right="$(Level)" BinaryOperation="Multiplication" Path="../ClassEmpire"/>
+        <BinaryModifier TargetProperty="NetLuxury8" Operation="Addition" Left="0.01" Right="$(Level)" BinaryOperation="Multiplication" Path="../ClassEmpire"/>
+        <BinaryModifier TargetProperty="NetLuxury9" Operation="Addition" Left="0.01" Right="$(Level)" BinaryOperation="Multiplication" Path="../ClassEmpire"/>
+    </SimulationDescriptor>
+</Datatable>

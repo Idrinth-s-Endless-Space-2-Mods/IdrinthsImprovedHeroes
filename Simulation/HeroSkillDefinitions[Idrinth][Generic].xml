@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroSkillDefinition.xsd">
+	<HeroSkillDefinition Name="HeroSkill01BranchGenericIdrinth">
+		<SkillLevel Name="HeroSkillIdrinthLeadingAsExample">
+			<HeroSimulationDescriptorReference Name="HeroSkill_Idrinth_LeadingAsExample_Ship"/>
+			<SystemSimulationDescriptorReference Name="HeroSkill_Idrinth_LeadingAsExample_System"/>
+			<MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
+		</SkillLevel>
+      <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+	</HeroSkillDefinition>
+
+	<HeroSkillDefinition Name="HeroSkill02BranchGenericIdrinth">
+		<SkillLevel Name="HeroSkillIdrinthCommanderOfGreatBattles">
+			<HeroSimulationDescriptorReference Name="HeroSkill_Idrinth_CommanderOfGreatBattles_Ship"/>
+			<SystemSimulationDescriptorReference Name="HeroSkill_Idrinth_CommanderOfGreatBattles_System"/>
+			<MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
+		</SkillLevel>
+      <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+	</HeroSkillDefinition>
+
+	<HeroSkillDefinition Name="HeroSkill03BranchGenericIdrinth">
+		<SkillLevel Name="HeroSkillIdrinthSignOfProgress">
+			<HeroSimulationDescriptorReference Name="HeroSkill_Idrinth_SignOfProgress_Ship"/>
+			<SystemSimulationDescriptorReference Name="HeroSkill_Idrinth_SignOfProgress_System"/>
+			<MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
+		</SkillLevel>
+      <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+	</HeroSkillDefinition>
+
+	<HeroSkillDefinition Name="HeroSkill04BranchGenericIdrinth">
+		<SkillLevel Name="HeroSkillIdrinthTrustworthyContacts">
+			<HeroSimulationDescriptorReference Name="HeroSkill_Idrinth_TrustworthyContacts"/>
+			<MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
+		</SkillLevel>
+      <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+	</HeroSkillDefinition>
+</Datatable>

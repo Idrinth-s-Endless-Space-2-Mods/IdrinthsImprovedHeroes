@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+    <SimulationDescriptor Name="HeroSkill_Idrinth_SaveAndSound_System" Type="HeroSkillSystem" IsSerializable="false">
+        <BinaryModifier TargetProperty="MaximumSystemManpower" Operation="Percent" Left="0.025" Right="$(AssignedHeroLevel)" BinaryOperation="Multiplication" Path="ClassColonizedStarSystem"/>
+        <BinaryModifier TargetProperty="GroundBattleDefenderManpowerLimit" Operation="Percent" Left="0.025" Right="$(AssignedHeroLevel)" BinaryOperation="Multiplication" Path="ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="HeroSkill_Idrinth_AVoiceToCharm_System" Type="HeroSkill" IsSerializable="false">
+        <BinaryModifier TargetProperty="EmpireEmpirePoint" Operation="Addition" Left="0.25" Right="$(AssignedHeroLevel)" BinaryOperation="Multiplication" Path="ClassColonizedStarSystem"/>
+        <BinaryModifier TargetProperty="EmpireEmpirePoint" Operation="Percent" Left="0.01" Right="$(AssignedHeroLevel)" BinaryOperation="Multiplication" Path="ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+</Datatable>

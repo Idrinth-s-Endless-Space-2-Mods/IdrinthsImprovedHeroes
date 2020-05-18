@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+    <SimulationDescriptor Name="HeroSkill_Idrinth_CommanderOfGreatFleets_Ship" Type="HeroSkill" IsSerializable="false">
+        <BinaryModifier TargetProperty="MaximumCommandPoints" Operation="Addition" Left="0.15" Right="$(Level)" BinaryOperation="Multiplication" Priority="19" Path="../ClassEmpire"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="HeroSkill_Idrinth_KillerOfFiends_Ship" Type="HeroSkill" IsSerializable="false">
+        <BinaryModifier TargetProperty="Damage" Operation="Percent" Left="0.01" Right="$(Level" BinaryOperation="Multiplication" Path="./ClassGarrisonFleet/ClassShip"/>
+        <BinaryModifier TargetProperty="Cooldown" Operation="Percent" Left="-0.005" Right="$(Level" BinaryOperation="Multiplication" Path="./ClassGarrisonFleet/ClassShip"/>
+    </SimulationDescriptor>
+</Datatable>

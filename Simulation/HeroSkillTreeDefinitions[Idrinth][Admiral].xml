@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroSkillTreeDefinition.xsd">
+    <HeroSkillTreeDefinition Name="HeroSkillTreeAdmiral">
+        <Stage Level="0">
+            <Skill>
+                <SkillDefinition Name="HeroSkill01BranchAdmiral"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkill02BranchAdmiral"/>
+            </Skill>
+        </Stage>
+        <Stage Level="4">
+            <Skill>
+                <SkillDefinition Name="HeroSkill03BranchAdmiral"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkill01BranchAdmiralIdrinth"/>
+            </Skill>
+        </Stage>
+        <Stage Level="8">
+            <Skill>
+                <SkillDefinition Name="HeroSkill04BranchAdmiral"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkill05BranchAdmiral"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkill06BranchAdmiral"/>
+            </Skill>
+        </Stage>
+        <Stage Level="12">
+            <Skill>
+                <SkillDefinition Name="HeroSkill07BranchAdmiral"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkill02BranchAdmiralIdrinth"/>
+            </Skill>
+        </Stage>
+    </HeroSkillTreeDefinition>
+</Datatable>

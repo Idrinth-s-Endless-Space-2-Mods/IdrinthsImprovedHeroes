@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroSkillTreeDefinition.xsd">
+    <HeroSkillTreeDefinition Name="HeroSkillTreeAdministrator">
+        <Stage Level="0">
+            <Skill>
+                <SkillDefinition Name="HeroSkill01BranchAdministrator"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkill02BranchAdministrator"/>
+            </Skill>
+        </Stage>
+        <Stage Level="4">
+            <Skill>
+                <SkillDefinition Name="HeroSkill03BranchAdministrator"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkill04BranchAdministrator"/>
+            </Skill>
+        </Stage>
+        <Stage Level="8">
+            <Skill>
+                <SkillDefinition Name="HeroSkill05BranchAdministrator"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkill06BranchAdministrator"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkill01BranchAdministratorIdrinth"/>
+            </Skill>
+        </Stage>
+        <Stage Level="12">
+            <Skill>
+                <SkillDefinition Name="HeroSkill07BranchAdministrator"/>
+            </Skill>
+            <Skill>
+                <SkillDefinition Name="HeroSkill02BranchAdministratorIdrinth"/>
+            </Skill>
+        </Stage>
+    </HeroSkillTreeDefinition>
+</Datatable>

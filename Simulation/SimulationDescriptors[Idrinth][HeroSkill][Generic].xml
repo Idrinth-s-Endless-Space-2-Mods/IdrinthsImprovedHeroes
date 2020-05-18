@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+    <SimulationDescriptor Name="HeroSkill_Idrinth_LeadingAsExample_Ship" Type="HeroSkill" IsSerializable="false">
+        <BinaryModifier TargetProperty="GarrisonMoneyUpkeep" Operation="Percent" Left="-0.01" Right="$(Level)" BinaryOperation="Multiplication" Path="./ClassGarrisonFleet"/>
+        <BinaryModifier TargetProperty="RepairAfterPhase" Operation="Addition" Left="0.0075" Right="$(Level)" BinaryOperation="Multiplication" Path="./ClassGarrisonFleet/ClassShip"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="HeroSkill_Idrinth_LeadingAsExample_System" Type="HeroSkillSystem" IsSerializable="false">
+        <BinaryModifier TargetProperty="Upkeep" Operation="Percent" Left="-0.01" Right="$(AssignedHeroLevel)" BinaryOperation="Multiplication" Path="ClassColonizedStarSystem"/>
+        <BinaryModifier TargetProperty="Happiness" Operation="Addition" Left="0.5" Right="$(AssignedHeroLevel)" BinaryOperation="Multiplication" Path="ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="HeroSkill_Idrinth_CommanderOfGreatBattles_Ship" Type="HeroSkill" IsSerializable="false">
+        <BinaryModifier TargetProperty="MaximumCommandPoints" Operation="Addition" Left="0.1" Right="$(Level)" BinaryOperation="Multiplication" Priority="19" Path="../ClassEmpire"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="HeroSkill_Idrinth_CommanderOfGreatBattles_System" Type="HeroSkillSystem" IsSerializable="false">
+        <BinaryModifier TargetProperty="MaximumSystemManpower" Operation="Percent" Left="0.01" Right="$(AssignedHeroLevel)" BinaryOperation="Multiplication" Path="ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="HeroSkill_Idrinth_SignOfProgress_Ship" Type="HeroSkill" IsSerializable="false">
+        <BinaryModifier TargetProperty="VisionRange" Operation="Percent" Left="0.01" Right="$(Level)" BinaryOperation="Multiplication" Path="./ClassGarrisonFleet/ClassShip"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="HeroSkill_Idrinth_SignOfProgress_System" Type="HeroSkillSystem" IsSerializable="false">
+        <BinaryModifier TargetProperty="SystemResearch" Operation="Percent" Left="0.0125" Right="$(AssignedHeroLevel)" BinaryOperation="Multiplication" Path="ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="HeroSkill_Idrinth_TrustworthyContacts" Type="HeroSkill" IsSerializable="false">
+        <BinaryModifier TargetProperty="NetStrategic1" Operation="Addition" Left="0.04" Right="$(Level)" BinaryOperation="Multiplication" Path="../ClassEmpire"/>
+        <BinaryModifier TargetProperty="NetStrategic2" Operation="Addition" Left="0.04" Right="$(Level)" BinaryOperation="Multiplication" Path="../ClassEmpire"/>
+        <BinaryModifier TargetProperty="NetStrategic3" Operation="Addition" Left="0.02" Right="$(Level)" BinaryOperation="Multiplication" Path="../ClassEmpire"/>
+        <BinaryModifier TargetProperty="NetStrategic4" Operation="Addition" Left="0.02" Right="$(Level)" BinaryOperation="Multiplication" Path="../ClassEmpire"/>
+        <BinaryModifier TargetProperty="NetStrategic5" Operation="Addition" Left="0.01" Right="$(Level)" BinaryOperation="Multiplication" Path="../ClassEmpire"/>
+        <BinaryModifier TargetProperty="NetStrategic6" Operation="Addition" Left="0.01" Right="$(Level)" BinaryOperation="Multiplication" Path="../ClassEmpire"/>
+    </SimulationDescriptor>
+</Datatable>
