@@ -43,7 +43,7 @@ Source code is at https://github.com/Idrinth-s-Endless-Space-2-Mods/IdrinthsImpr
 				<ExtraTypes>
 					<ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass"/>
 				</ExtraTypes>
-				<FilePath>Gui/GuiElements[idrinth][*].xml</FilePath>
+				<FilePath>Gui/GuiElements[Idrinth][*].xml</FilePath>
 			</DatabasePlugin>
 		</Plugins>
 	</RuntimeModule>
