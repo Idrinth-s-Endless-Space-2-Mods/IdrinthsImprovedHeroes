@@ -10,7 +10,7 @@
 
 	<HeroSkillDefinition Name="HeroSkill02BranchAdministratorIdrinth">
 		<SkillLevel Name="HeroSkillIdrinthTaxesAndReturns">
-			<HeroSimulationDescriptorReference Name="HeroSkill_Idrinth_TaxesAndReturns"/>
+			<SystemSimulationDescriptorReference Name="HeroSkill_Idrinth_TaxesAndReturns"/>
 			<MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
 		</SkillLevel>
       <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>

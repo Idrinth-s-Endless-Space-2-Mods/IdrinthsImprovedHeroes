@@ -6,15 +6,14 @@
         <BinaryModifier TargetProperty="SystemMoney" Operation="Addition" Left="0.5" Right="$(AssignedHeroLevel)" BinaryOperation="Multiplication" Path="ClassColonizedStarSystem"/>
     </SimulationDescriptor>
 
-    <SimulationDescriptor Name="HeroSkill_Idrinth_TaxesAndReturns" Type="HeroSkill" IsSerializable="false">
-        <BinaryModifier TargetProperty="NetLuxury1" Operation="Addition" Left="0.01" Right="$(Level)" BinaryOperation="Multiplication" Path="../ClassEmpire"/>
-        <BinaryModifier TargetProperty="NetLuxury2" Operation="Addition" Left="0.01" Right="$(Level)" BinaryOperation="Multiplication" Path="../ClassEmpire"/>
-        <BinaryModifier TargetProperty="NetLuxury3" Operation="Addition" Left="0.01" Right="$(Level)" BinaryOperation="Multiplication" Path="../ClassEmpire"/>
-        <BinaryModifier TargetProperty="NetLuxury4" Operation="Addition" Left="0.01" Right="$(Level)" BinaryOperation="Multiplication" Path="../ClassEmpire"/>
-        <BinaryModifier TargetProperty="NetLuxury5" Operation="Addition" Left="0.01" Right="$(Level)" BinaryOperation="Multiplication" Path="../ClassEmpire"/>
-        <BinaryModifier TargetProperty="NetLuxury6" Operation="Addition" Left="0.01" Right="$(Level)" BinaryOperation="Multiplication" Path="../ClassEmpire"/>
-        <BinaryModifier TargetProperty="NetLuxury7" Operation="Addition" Left="0.01" Right="$(Level)" BinaryOperation="Multiplication" Path="../ClassEmpire"/>
-        <BinaryModifier TargetProperty="NetLuxury8" Operation="Addition" Left="0.01" Right="$(Level)" BinaryOperation="Multiplication" Path="../ClassEmpire"/>
-        <BinaryModifier TargetProperty="NetLuxury9" Operation="Addition" Left="0.01" Right="$(Level)" BinaryOperation="Multiplication" Path="../ClassEmpire"/>
+    <SimulationDescriptor Name="HeroSkill_Idrinth_TaxesAndReturns" Type="HeroSkillSystem" IsSerializable="false">
+        <BinaryModifier TargetProperty="Luxury1" Operation="Addition" Left="0.0075" Right="$(AssignedHeroLevel)" BinaryOperation="Multiplication" Path="ClassColonizedStarSystem/ClassPlanet"/>
+        <BinaryModifier TargetProperty="Luxury2" Operation="Addition" Left="0.0075" Right="$(AssignedHeroLevel)" BinaryOperation="Multiplication" Path="ClassColonizedStarSystem/ClassPlanet"/>
+        <BinaryModifier TargetProperty="Luxury3" Operation="Addition" Left="0.0075" Right="$(AssignedHeroLevel)" BinaryOperation="Multiplication" Path="ClassColonizedStarSystem/ClassPlanet"/>
+        <BinaryModifier TargetProperty="Luxury4" Operation="Addition" Left="0.0075" Right="$(AssignedHeroLevel)" BinaryOperation="Multiplication" Path="ClassColonizedStarSystem/ClassPlanet"/>
+        <BinaryModifier TargetProperty="Luxury5" Operation="Addition" Left="0.0075" Right="$(AssignedHeroLevel)" BinaryOperation="Multiplication" Path="ClassColonizedStarSystem/ClassPlanet"/>
+        <BinaryModifier TargetProperty="Luxury6" Operation="Addition" Left="0.0075" Right="$(AssignedHeroLevel)" BinaryOperation="Multiplication" Path="ClassColonizedStarSystem/ClassPlanet"/>
+        <BinaryModifier TargetProperty="Luxury7" Operation="Addition" Left="0.0075" Right="$(AssignedHeroLevel)" BinaryOperation="Multiplication" Path="ClassColonizedStarSystem/ClassPlanet"/>
+        <BinaryModifier TargetProperty="Luxury8" Operation="Addition" Left="0.0075" Right="$(AssignedHeroLevel)" BinaryOperation="Multiplication" Path="ClassColonizedStarSystem/ClassPlanet"/>
     </SimulationDescriptor>
 </Datatable>

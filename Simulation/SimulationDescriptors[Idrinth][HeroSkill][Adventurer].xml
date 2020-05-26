@@ -5,7 +5,7 @@
         <BinaryModifier TargetProperty="Cooldown" Operation="Percent" Left="-0.01" Right="9" BinaryOperation="Multiplication" Priority="19" Path="./ClassGarrisonFleet"/>
     </SimulationDescriptor>
 
-    <SimulationDescriptor Name="HeroSkill_Idrinth_AllPowerToShields_Ship" Type="HeroSkill" IsSerializable="false">
+    <SimulationDescriptor Name="HeroSkill_Idrinth_AllPowerToShields_Ship" Type="HeroSkill" IsSerializable="false">        
         <BinaryModifier TargetProperty="MaximumHealth" Operation="Percent" Left="0.025" Right="$(Level)" BinaryOperation="Multiplication" Path="./ClassGarrisonFleet/ClassShip"/>
         <BinaryModifier TargetProperty="MaximumShield" Operation="Percent" Left="0.025" Right="$(Level)" BinaryOperation="Multiplication" Path="./ClassGarrisonFleet/ClassShip"/>
         <BinaryModifier TargetProperty="Damage" Operation="Percent" Left="-0.005" Right="$(Level)" BinaryOperation="Multiplication" Path="./ClassGarrisonFleet/ClassShip"/>

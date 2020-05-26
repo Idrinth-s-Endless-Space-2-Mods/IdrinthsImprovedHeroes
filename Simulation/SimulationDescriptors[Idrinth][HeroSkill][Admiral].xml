@@ -5,7 +5,7 @@
     </SimulationDescriptor>
 
     <SimulationDescriptor Name="HeroSkill_Idrinth_KillerOfFiends_Ship" Type="HeroSkill" IsSerializable="false">
-        <BinaryModifier TargetProperty="Damage" Operation="Percent" Left="0.01" Right="$(Level" BinaryOperation="Multiplication" Path="./ClassGarrisonFleet/ClassShip"/>
-        <BinaryModifier TargetProperty="Cooldown" Operation="Percent" Left="-0.005" Right="$(Level" BinaryOperation="Multiplication" Path="./ClassGarrisonFleet/ClassShip"/>
+        <BinaryModifier TargetProperty="Damage" Operation="Percent" Left="0.01" Right="$(Level)" BinaryOperation="Multiplication" Path="./ClassGarrisonFleet/ClassShip"/>
+        <BinaryModifier TargetProperty="Cooldown" Operation="Percent" Left="-0.005" Right="$(Level)" BinaryOperation="Multiplication" Path="./ClassGarrisonFleet/ClassShip"/>
     </SimulationDescriptor>
 </Datatable>

@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroSkillDefinition.xsd">
-	<HeroSkillDefinition Name="HeroSkill01BranchAdmiralIdrinth">
-		<SkillLevel Name="HeroSkillIdrinthCommanderOfGreatFleets">
-			<HeroSimulationDescriptorReference Name="HeroSkill_Idrinth_CommanderOfGreatFleets_Ship"/>
-			<MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
-		</SkillLevel>
+    <HeroSkillDefinition Name="HeroSkill01BranchAdmiralIdrinth">
+        <SkillLevel Name="HeroSkillIdrinthCommanderOfGreatFleets">
+            <HeroSimulationDescriptorReference Name="HeroSkill_Idrinth_CommanderOfGreatFleets_Ship"/>
+            <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
+        </SkillLevel>
       <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
-	</HeroSkillDefinition>
+    </HeroSkillDefinition>
 
-	<HeroSkillDefinition Name="HeroSkill02BranchAdmiralIdrinth">
-		<SkillLevel Name="HeroSkillIdrinthKillerOfFiends">
-			<ShipSimulationDescriptorReference Name="HeroSkill_Idrinth_KillerOfFiends_Ship"/>
-			<MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
-		</SkillLevel>
+    <HeroSkillDefinition Name="HeroSkill02BranchAdmiralIdrinth">
+        <SkillLevel Name="HeroSkillIdrinthKillerOfFiends">
+            <HeroSimulationDescriptorReference Name="HeroSkill_Idrinth_KillerOfFiends_Ship"/>
+            <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
+        </SkillLevel>
       <HeroSimulationDescriptorReference Name="HeroMasteryCuriosity"/>
-	</HeroSkillDefinition>
+    </HeroSkillDefinition>
 </Datatable>
