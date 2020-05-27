@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroDefinition.xsd">
+    <HeroDefinition Name="HeroSophons01">
+        <Skill Name="HeroSkill01Sophons01"/>
+        <Skill Name="HeroSkill02Sophons01"/>
+
+        <Affinity Name="HeroAffinitySophons"/>
+        <Class Name="HeroClassAdministrator"/>
+        <Politics Name="HeroPolitics01"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeSophons"/>
+        <SkillTree Name="HeroSkillTreeAdministrator"/>
+        <SkillTree Name="HeroSkillTreeIdrinthIndustrialist"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+
+    <HeroDefinition Name="HeroSophons02">
+        <Skill Name="HeroSkill01Sophons02"/>
+        <Skill Name="HeroSkill02Sophons02"/>
+
+        <Affinity Name="HeroAffinitySophons"/>
+        <Class Name="HeroClassAdventurer"/>
+        <Politics Name="HeroPolitics05"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeSophons"/>
+        <SkillTree Name="HeroSkillTreeAdventurer"/>
+        <SkillTree Name="HeroSkillTreeIdrinthReligious"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+
+    <HeroDefinition Name="HeroSophons03">
+        <Skill Name="HeroSkill01Sophons03"/>
+        <Skill Name="HeroSkill02Sophons03"/>
+
+        <Affinity Name="HeroAffinitySophons"/>
+        <Class Name="HeroClassCorporate"/>
+        <Politics Name="HeroPolitics03"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeSophons"/>
+        <SkillTree Name="HeroSkillTreeCorporate"/>
+        <SkillTree Name="HeroSkillTreeIdrinthPacifist"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+
+    <HeroDefinition Name="HeroSophons04">
+        <Skill Name="HeroSkill01Sophons04"/>
+        <Skill Name="HeroSkill02Sophons04"/>
+
+        <Affinity Name="HeroAffinitySophons"/>
+        <Class Name="HeroClassCorporate"/>
+        <Politics Name="HeroPolitics02"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeSophons"/>
+        <SkillTree Name="HeroSkillTreeCorporate"/>
+        <SkillTree Name="HeroSkillTreeIdrinthScientist"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+
+    <HeroDefinition Name="HeroSophons05">
+        <Skill Name="HeroSkill01Sophons05"/>
+        <Skill Name="HeroSkill02Sophons05"/>
+
+        <Affinity Name="HeroAffinitySophons"/>
+        <Class Name="HeroClassCorporate"/>
+        <Politics Name="HeroPolitics03"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeSophons"/>
+        <SkillTree Name="HeroSkillTreeCorporate"/>
+        <SkillTree Name="HeroSkillTreeIdrinthPacifist"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+</Datatable>

@@ -1,50 +1,62 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="Documentation/Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
 
-	<RuntimeModule Name="IdrinthsImprovedHeroes" Type="Extension" Version="0.11">
+    <RuntimeModule Name="IdrinthsImprovedHeroes" Type="Extension" Version="0.11">
 
         <Title>Idrinth's Improved Heroes</Title>
 		
         <Description>Adds additional skills to make heroes a bit more usefull as well as slightly expanding the capabilities of Hero-ships by adding a few additional modifiers.
 
-This mod is still highly WIP!
+            This mod is still highly WIP!
 
-Adds 4 Skills to the general Branch and two to each class branch, that all scale with the hero's level. While class skills try to add to the class' flavour, the generic ones usually are independant of where the hero is assigned.
+            Adds 4 Skills to the general Branch and two to each class branch, that all scale with the hero's level. While class skills try to add to the class' flavour, the generic ones usually are independant of where the hero is assigned.
 
-Source code is at https://github.com/Idrinth-s-Endless-Space-2-Mods/IdrinthsImprovedHeroes - contributions are always highly welcome.</Description>
-     		<Author>Idrinth</Author>
-        
-		<Homepage></Homepage>
+            Source code is at https://github.com/Idrinth-s-Endless-Space-2-Mods/IdrinthsImprovedHeroes - contributions are always highly welcome.</Description>
+        <Author>Idrinth</Author>
+
+        <Homepage></Homepage>
 
         <PreviewImageFile>iih.jpg</PreviewImageFile>
 
-		<ReleaseNotes></ReleaseNotes>
+        <ReleaseNotes></ReleaseNotes>
 
         <!-- Available tags: AI, Art, Buildings, Gameplay, Improvements, MajorFactions, Maps, MinorFactions, Multiplayer, Other, Resources, Technologies, Units. -->
         <Tags>Units,Heroes,Other</Tags>
 
-		<Plugins>
-			<DatabasePlugin DataType="Amplitude.Unity.Simulation.SimulationDescriptor, Assembly-CSharp-firstpass">
-				<FilePath>Simulation/SimulationDescriptors[Idrinth][*].xml</FilePath>
-			</DatabasePlugin>
-			<DatabasePlugin DataType="HeroSkillDefinition, Assembly-CSharp">
-				<FilePath>Simulation/HeroSkillDefinitions[Idrinth][*].xml</FilePath>
-			</DatabasePlugin>
-			<DatabasePlugin DataType="HeroSkillTreeDefinition, Assembly-CSharp">
-				<FilePath>Simulation/HeroSkillTreeDefinitions[Idrinth][*].xml</FilePath>
-			</DatabasePlugin>
-			<DatabasePlugin DataType="HullDefinition, Assembly-CSharp">
-				<FilePath>Simulation/HullDefinition[Idrinth][*].xml</FilePath>
-			</DatabasePlugin>
-			<LocalizationPlugin DefaultLanguage="english">
-				<Directory>Localization</Directory>
-			</LocalizationPlugin>
-			<DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
-				<ExtraTypes>
-					<ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass"/>
-				</ExtraTypes>
-				<FilePath>Gui/GuiElements[Idrinth][*].xml</FilePath>
-			</DatabasePlugin>
-		</Plugins>
-	</RuntimeModule>
+        <Plugins>
+            <DatabasePlugin DataType="Amplitude.Unity.Simulation.SimulationDescriptor, Assembly-CSharp-firstpass">
+                <FilePath>Simulation/SimulationDescriptors[Idrinth][*].xml</FilePath>
+                <FilePath>Simulation/Generic/SimulationDescriptors[Idrinth][*].xml</FilePath>
+                <FilePath>Simulation/Job/SimulationDescriptors[Idrinth][*].xml</FilePath>
+                <FilePath>Simulation/Politic/SimulationDescriptors[Idrinth][*].xml</FilePath>
+            </DatabasePlugin>
+            <DatabasePlugin DataType="HeroSkillDefinition, Assembly-CSharp">
+                <FilePath>Simulation/Generic/HeroSkillDefinitions[Idrinth][*].xml</FilePath>
+                <FilePath>Simulation/Job/HeroSkillDefinitions[Idrinth][*].xml</FilePath>
+                <FilePath>Simulation/Politic/HeroSkillDefinitions[Idrinth][*].xml</FilePath>
+            </DatabasePlugin>
+            <DatabasePlugin DataType="HeroSkillTreeDefinition, Assembly-CSharp">
+                <FilePath>Simulation/Generic/HeroSkillTreeDefinitions[Idrinth][*].xml</FilePath>
+                <FilePath>Simulation/Job/HeroSkillTreeDefinitions[Idrinth][*].xml</FilePath>
+                <FilePath>Simulation/Politic/HeroSkillTreeDefinitions[Idrinth][*].xml</FilePath>
+            </DatabasePlugin>
+            <DatabasePlugin DataType="HullDefinition, Assembly-CSharp">
+                <FilePath>Simulation/HullDefinition[Idrinth][*].xml</FilePath>
+            </DatabasePlugin>
+            <DatabasePlugin DataType="HeroDefinition, Assembly-CSharp">
+                <FilePath>Simulation/HeroDefinitions[Idrinth][*].xml</FilePath>
+            </DatabasePlugin>
+            <LocalizationPlugin DefaultLanguage="english">
+                <Directory>Localization</Directory>
+            </LocalizationPlugin>
+            <DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
+                <ExtraTypes>
+                    <ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass"/>
+                </ExtraTypes>
+                <FilePath>Gui/GuiElements[Idrinth][*].xml</FilePath>
+                <FilePath>Gui/Job/GuiElements[Idrinth][*].xml</FilePath>
+                <FilePath>Gui/Politic/GuiElements[Idrinth][*].xml</FilePath>
+            </DatabasePlugin>
+        </Plugins>
+    </RuntimeModule>
 </Datatable>

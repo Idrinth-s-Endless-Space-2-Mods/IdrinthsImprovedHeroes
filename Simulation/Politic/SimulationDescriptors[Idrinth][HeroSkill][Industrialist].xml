@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+    <SimulationDescriptor Name="HeroSkill_Idrinth_Industry_SystemProductionPerLevel" Type="HeroSkillSystem" IsSerializable="false">
+        <BinaryModifier TargetProperty="NetSystemProduction" Path="../ClassColonizedStarSystem" Left="5" Right="$(AssignedHeroLevel)" BinaryOperation="Multiplication" Operation="Addition"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="HeroSkill_Idrinth_Industry_ShieldPerLevel" Type="HeroSkill" IsSerializable="false">
+        <BinaryModifier TargetProperty="MaximumShield" Path="../ClassGarrisonFleet/ClassShip" Left="0.01" Right="$(Level)" BinaryOperation="Multiplication" Operation="Percent"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="HeroSkill_Idrinth_Industry_SystemProductionPercentPerLevel" Type="HeroSkill" IsSerializable="false">
+        <BinaryModifier TargetProperty="NetSystemProduction" Path="../ClassColonizedStarSystem" Left="0.01" Right="$(AssignedHeroLevel)" BinaryOperation="Multiplication" Operation="Percent"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="HeroSkill_Idrinth_Industry_CommandPointsPerLevel" Type="HeroSkill" IsSerializable="false">
+        <BinaryModifier TargetProperty="MaximumCommandPoints" Path="../ClassEmpire" Left="0.1" Right="$(Level)" BinaryOperation="Multiplication" Operation="Addition"/>
+    </SimulationDescriptor>
+</Datatable>

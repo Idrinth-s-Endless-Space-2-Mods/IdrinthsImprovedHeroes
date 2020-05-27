@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroSkillDefinition.xsd">
+    <HeroSkillDefinition Name="HeroSkillTreeIdrinthPacifist01">
+        <SkillLevel Name="HeroSkillTreeIdrinthPacifist01">
+            <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
+            <HeroSimulationDescriptorReference Name="HeroSkill_Idrinth_Pacifist_MoneyPerLevel"/>
+        </SkillLevel>
+        <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTreeIdrinthPacifist02">
+        <SkillLevel Name="HeroSkillTreeIdrinthPacifist02">
+            <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
+            <SystemSimulationDescriptorReference Name="HeroSkill_Idrinth_Pacifist_HappinessPerLevel"/>
+        </SkillLevel>
+        <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTreeIdrinthPacifist03">
+        <SkillLevel Name="HeroSkillTreeIdrinthPacifist03">
+            <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
+            <SystemSimulationDescriptorReference Name="HeroSkill_Idrinth_Pacifist_MoneyPercentPerLevel"/>
+        </SkillLevel>
+        <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTreeIdrinthPacifist04">
+        <SkillLevel Name="HeroSkillTreeIdrinthPacifist04">
+            <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
+            <HeroSimulationDescriptorReference Name="HeroSkill_Idrinth_Pacifist_ShipHealthPerLevel"/>
+        </SkillLevel>
+        <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+    </HeroSkillDefinition>
+</Datatable>

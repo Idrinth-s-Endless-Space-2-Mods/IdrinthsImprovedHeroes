@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroSkillDefinition.xsd">
+    <HeroSkillDefinition Name="HeroSkillTreeIdrinthIndustrialist01">
+        <SkillLevel Name="HeroSkillTreeIdrinthIndustrialist01">
+            <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
+            <SystemSimulationDescriptorReference Name="HeroSkill_Idrinth_Industry_SystemProductionPerLevel"/>
+        </SkillLevel>
+        <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTreeIdrinthIndustrialist02">
+        <SkillLevel Name="HeroSkillTreeIdrinthIndustrialist02">
+            <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
+            <HeroSimulationDescriptorReference Name="HeroSkill_Idrinth_Industry_ShieldPerLevel"/>
+        </SkillLevel>
+        <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTreeIdrinthIndustrialist03">
+        <SkillLevel Name="HeroSkillTreeIdrinthIndustrialist03">
+            <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
+            <SystemSimulationDescriptorReference Name="HeroSkill_Idrinth_Industry_SystemProductionPercentPerLevel"/>
+        </SkillLevel>
+        <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTreeIdrinthIndustrialist04">
+        <SkillLevel Name="HeroSkillTreeIdrinthIndustrialist04">
+            <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
+            <HeroSimulationDescriptorReference Name="HeroSkill_Idrinth_Industry_CommandPointsPerLevel"/>
+        </SkillLevel>
+        <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+    </HeroSkillDefinition>
+</Datatable>

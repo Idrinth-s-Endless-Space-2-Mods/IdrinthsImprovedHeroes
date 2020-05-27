@@ -3,7 +3,7 @@
 
     <HullDefinition Name="HullHeroDefault">
         <TechnologyPrerequisite Flags="Prerequisite,Discard,Edition,Faction">false</TechnologyPrerequisite>
-      
+
         <SimulationDescriptorReference Name="ClassHullHeroDefault"/>
         <SimulationDescriptorReference Name="WeaponAvailabilityKinetic"/>
         <SimulationDescriptorReference Name="WeaponAvailabilityBeam"/>
@@ -16,7 +16,7 @@
         <SimulationDescriptorReference Name="ShipStatBonus2Defensive"/>
         <SimulationDescriptorReference Name="ShipStatBonus1TargetingAttract"/>
         <SimulationDescriptorReference Name="ShipStatBonus1TargetingFocus"/>
-      
+
         <ShipDesignLayout>
             <ShipRoleReference Name="ShipRoleHero"/>
             <SectionPattern_Eight>
@@ -37,11 +37,11 @@
                         <RestrictedWeaponType>Beam</RestrictedWeaponType>
                         <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
                         <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
-						<LineOfSight>
-							<Direction X="0" Z="1"/>
-							<Angle>270</Angle>
-							<VisualSlot Name="MDL_Wp_Small_Up_00"></VisualSlot>
-						</LineOfSight>
+                        <LineOfSight>
+                            <Direction X="0" Z="1"/>
+                            <Angle>270</Angle>
+                            <VisualSlot Name="MDL_Wp_Small_Up_00"></VisualSlot>
+                        </LineOfSight>
                         <ModuleModifier>
                             <SimulationDescriptorReference Name="TopWeapon"/>
                         </ModuleModifier>
@@ -87,17 +87,17 @@
                         <RestrictedWeaponType>Beam</RestrictedWeaponType>
                         <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
                         <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
-						<LineOfSight>
-							<Direction X="1" Z="0"/>
-							<Angle>120</Angle>
-							<VisualSlot Name="MDL_Wp_SmallSide_Right_00"></VisualSlot>
-						</LineOfSight>
-						<LineOfSight>
-							<Direction X="-1" Z="0"/>
-							<Angle>120</Angle>
-							<VisualSlot Name="MDL_Wp_SmallSide_Left_00"></VisualSlot>
-						</LineOfSight>
-						<UISlotName>UIRightWeapon03</UISlotName>
+                        <LineOfSight>
+                            <Direction X="1" Z="0"/>
+                            <Angle>120</Angle>
+                            <VisualSlot Name="MDL_Wp_SmallSide_Right_00"></VisualSlot>
+                        </LineOfSight>
+                        <LineOfSight>
+                            <Direction X="-1" Z="0"/>
+                            <Angle>120</Angle>
+                            <VisualSlot Name="MDL_Wp_SmallSide_Left_00"></VisualSlot>
+                        </LineOfSight>
+                        <UISlotName>UIRightWeapon03</UISlotName>
                     </WeaponSlot>
                     <Slot Name="Defense01">
                         <RestrictedModuleCategory>Defense</RestrictedModuleCategory>
@@ -117,17 +117,17 @@
                         <RestrictedWeaponType>Beam</RestrictedWeaponType>
                         <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
                         <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
-						<LineOfSight>
-							<Direction X="1" Z="0"/>
-							<Angle>120</Angle>
-							<VisualSlot Name="MDL_Wp_SmallSide_Right_01"></VisualSlot>
-						</LineOfSight>
-						<LineOfSight>
-							<Direction X="-1" Z="0"/>
-							<Angle>120</Angle>
-							<VisualSlot Name="MDL_Wp_SmallSide_Left_01"></VisualSlot>
-						</LineOfSight>
-						<UISlotName>UIBackRightWeapon05</UISlotName>
+                        <LineOfSight>
+                            <Direction X="1" Z="0"/>
+                            <Angle>120</Angle>
+                            <VisualSlot Name="MDL_Wp_SmallSide_Right_01"></VisualSlot>
+                        </LineOfSight>
+                        <LineOfSight>
+                            <Direction X="-1" Z="0"/>
+                            <Angle>120</Angle>
+                            <VisualSlot Name="MDL_Wp_SmallSide_Left_01"></VisualSlot>
+                        </LineOfSight>
+                        <UISlotName>UIBackRightWeapon05</UISlotName>
                     </WeaponSlot>
                 </Section>
 
@@ -161,7 +161,7 @@
                 </Section>
             </SectionPattern_Eight>
         </ShipDesignLayout>
-      
+
         <BattleActionReference Name="Ship_UpdateMedalScoreAfterAttack"/>
         <BattleActionReference Name="Ship_UpdateMedalScoreAfterDamage"/>
         <BattleActionReference Name="Ship_Healing"/>
@@ -187,7 +187,7 @@
         <SimulationDescriptorReference Name="ShipStatBonus2Defensive"/>
         <SimulationDescriptorReference Name="ShipStatBonus1TargetingAttract"/>
         <SimulationDescriptorReference Name="ShipStatBonus1TargetingFocus"/>
-      
+
         <ShipDesignLayout>
             <ShipRoleReference Name="ShipRoleHero"/>
             <SectionPattern_Eight>
@@ -208,11 +208,11 @@
                         <RestrictedWeaponType>Beam</RestrictedWeaponType>
                         <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
                         <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
-						<LineOfSight>
-							<Direction X="0" Z="1"/>
-							<Angle>270</Angle>
-							<VisualSlot Name="MDL_Wp_Small_Up_02"></VisualSlot>
-						</LineOfSight>
+                        <LineOfSight>
+                            <Direction X="0" Z="1"/>
+                            <Angle>270</Angle>
+                            <VisualSlot Name="MDL_Wp_Small_Up_02"></VisualSlot>
+                        </LineOfSight>
                         <ModuleModifier>
                             <SimulationDescriptorReference Name="TopWeapon"/>
                         </ModuleModifier>
@@ -247,17 +247,17 @@
                         <RestrictedWeaponType>Beam</RestrictedWeaponType>
                         <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
                         <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
-						<LineOfSight>
-							<Direction X="1" Z="0"/>
-							<Angle>120</Angle>
-							<VisualSlot Name="MDL_Wp_SmallSide_Right_00"></VisualSlot>
-						</LineOfSight>
-						<LineOfSight>
-							<Direction X="-1" Z="0"/>
-							<Angle>120</Angle>
-							<VisualSlot Name="MDL_Wp_SmallSide_Left_00"></VisualSlot>
-						</LineOfSight>
-						<UISlotName>UIRightWeapon02</UISlotName>
+                        <LineOfSight>
+                            <Direction X="1" Z="0"/>
+                            <Angle>120</Angle>
+                            <VisualSlot Name="MDL_Wp_SmallSide_Right_00"></VisualSlot>
+                        </LineOfSight>
+                        <LineOfSight>
+                            <Direction X="-1" Z="0"/>
+                            <Angle>120</Angle>
+                            <VisualSlot Name="MDL_Wp_SmallSide_Left_00"></VisualSlot>
+                        </LineOfSight>
+                        <UISlotName>UIRightWeapon02</UISlotName>
                     </WeaponSlot>
                     <WeaponSlot Name="Weapon02" ShowPositionMarker="true" PositionMarkerAngle="0">
                         <RestrictedWeaponType>Kinetic</RestrictedWeaponType>
@@ -266,17 +266,17 @@
                         <RestrictedWeaponType>Beam</RestrictedWeaponType>
                         <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
                         <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
-						<LineOfSight>
-							<Direction X="1" Z="0"/>
-							<Angle>120</Angle>
-							<VisualSlot Name="MDL_Wp_SmallSide_Right_01"></VisualSlot>
-						</LineOfSight>
-						<LineOfSight>
-							<Direction X="-1" Z="0"/>
-							<Angle>120</Angle>
-							<VisualSlot Name="MDL_Wp_SmallSide_Left_01"></VisualSlot>
-						</LineOfSight>
-						<UISlotName>UIRightWeapon03</UISlotName>
+                        <LineOfSight>
+                            <Direction X="1" Z="0"/>
+                            <Angle>120</Angle>
+                            <VisualSlot Name="MDL_Wp_SmallSide_Right_01"></VisualSlot>
+                        </LineOfSight>
+                        <LineOfSight>
+                            <Direction X="-1" Z="0"/>
+                            <Angle>120</Angle>
+                            <VisualSlot Name="MDL_Wp_SmallSide_Left_01"></VisualSlot>
+                        </LineOfSight>
+                        <UISlotName>UIRightWeapon03</UISlotName>
                     </WeaponSlot>
                 </Section>
 
@@ -516,7 +516,7 @@
         <SimulationDescriptorReference Name="ShipStatBonus1TargetingAttract"/>
         <SimulationDescriptorReference Name="ShipStatBonus1TargetingFocus"/>
 
-      <ShipDesignLayout>
+        <ShipDesignLayout>
             <ShipRoleReference Name="ShipRoleHero"/>
             <SectionPattern_Eight>
                 <!-- Core Section -->
@@ -531,15 +531,15 @@
                         <RestrictedWeaponType>Beam</RestrictedWeaponType>
                         <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
                         <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
-						<LineOfSight>
-							<Direction X="0" Z="1"/>
-							<Angle>270</Angle>
-							<VisualSlot Name="MDL_Wp_Small_Up_00"></VisualSlot>
-						</LineOfSight>
-						<ModuleModifier>
-							<SimulationDescriptorReference Name="TopWeapon"/>
-						</ModuleModifier>
-						<UISlotName>UICoreWeapon06</UISlotName>
+                        <LineOfSight>
+                            <Direction X="0" Z="1"/>
+                            <Angle>270</Angle>
+                            <VisualSlot Name="MDL_Wp_Small_Up_00"></VisualSlot>
+                        </LineOfSight>
+                        <ModuleModifier>
+                            <SimulationDescriptorReference Name="TopWeapon"/>
+                        </ModuleModifier>
+                        <UISlotName>UICoreWeapon06</UISlotName>
                     </WeaponSlot>
                     <WeaponSlot Name="Weapon02" ShowPositionMarker="true" PositionMarkerAngle="180">
                         <RestrictedWeaponType>Kinetic</RestrictedWeaponType>
@@ -548,15 +548,15 @@
                         <RestrictedWeaponType>Beam</RestrictedWeaponType>
                         <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
                         <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
-						<LineOfSight>
-							<Direction X="0" Z="1"/>
-							<Angle>270</Angle>
-							<VisualSlot Name="MDL_Wp_Small_Up_01"></VisualSlot>
-						</LineOfSight>
-						<ModuleModifier>
-							<SimulationDescriptorReference Name="TopWeapon"/>
-						</ModuleModifier>
-						<UISlotName>UICoreWeapon07</UISlotName>
+                        <LineOfSight>
+                            <Direction X="0" Z="1"/>
+                            <Angle>270</Angle>
+                            <VisualSlot Name="MDL_Wp_Small_Up_01"></VisualSlot>
+                        </LineOfSight>
+                        <ModuleModifier>
+                            <SimulationDescriptorReference Name="TopWeapon"/>
+                        </ModuleModifier>
+                        <UISlotName>UICoreWeapon07</UISlotName>
                     </WeaponSlot>
                     <Slot Name="Support01">
                         <RestrictedModuleCategory>Support</RestrictedModuleCategory>
@@ -604,17 +604,17 @@
                         <RestrictedWeaponType>Beam</RestrictedWeaponType>
                         <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
                         <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
-						<LineOfSight>
-							<Direction X="1" Z="0"/>
-							<Angle>120</Angle>
-							<VisualSlot Name="MDL_Wp_SmallSide_Right_00"></VisualSlot>
-						</LineOfSight>
-						<LineOfSight>
-							<Direction X="-1" Z="0"/>
-							<Angle>120</Angle>
-							<VisualSlot Name="MDL_Wp_SmallSide_Left_00"></VisualSlot>
-						</LineOfSight>
-						<UISlotName>UIBackRightWeapon03</UISlotName>
+                        <LineOfSight>
+                            <Direction X="1" Z="0"/>
+                            <Angle>120</Angle>
+                            <VisualSlot Name="MDL_Wp_SmallSide_Right_00"></VisualSlot>
+                        </LineOfSight>
+                        <LineOfSight>
+                            <Direction X="-1" Z="0"/>
+                            <Angle>120</Angle>
+                            <VisualSlot Name="MDL_Wp_SmallSide_Left_00"></VisualSlot>
+                        </LineOfSight>
+                        <UISlotName>UIBackRightWeapon03</UISlotName>
                     </WeaponSlot>
                     <WeaponSlot Name="Weapon02" ShowPositionMarker="true" PositionMarkerAngle="45">
                         <RestrictedWeaponType>Kinetic</RestrictedWeaponType>
@@ -623,16 +623,16 @@
                         <RestrictedWeaponType>Beam</RestrictedWeaponType>
                         <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
                         <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
-						<LineOfSight>
-							<Direction X="1" Z="0"/>
-							<Angle>120</Angle>
-							<VisualSlot Name="MDL_Wp_SmallSide_Right_02"></VisualSlot>
-						</LineOfSight>
-						<LineOfSight>
-							<Direction X="-1" Z="0"/>
-							<Angle>120</Angle>
-							<VisualSlot Name="MDL_Wp_SmallSide_Left_02"></VisualSlot>
-						</LineOfSight>
+                        <LineOfSight>
+                            <Direction X="1" Z="0"/>
+                            <Angle>120</Angle>
+                            <VisualSlot Name="MDL_Wp_SmallSide_Right_02"></VisualSlot>
+                        </LineOfSight>
+                        <LineOfSight>
+                            <Direction X="-1" Z="0"/>
+                            <Angle>120</Angle>
+                            <VisualSlot Name="MDL_Wp_SmallSide_Left_02"></VisualSlot>
+                        </LineOfSight>
                         <UISlotName>UIBackRightWeapon04</UISlotName>
                     </WeaponSlot>
                 </Section>
@@ -709,15 +709,15 @@
                         <RestrictedWeaponType>Beam</RestrictedWeaponType>
                         <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
                         <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
-						<LineOfSight>
-							<Direction X="0" Z="1"/>
-							<Angle>270</Angle>
-							<VisualSlot Name="MDL_Wp_Small_Up_00"></VisualSlot>
-						</LineOfSight>
-						<ModuleModifier>
-							<SimulationDescriptorReference Name="TopWeapon"/>
-						</ModuleModifier>
-						<UISlotName>UICoreWeapon07</UISlotName>
+                        <LineOfSight>
+                            <Direction X="0" Z="1"/>
+                            <Angle>270</Angle>
+                            <VisualSlot Name="MDL_Wp_Small_Up_00"></VisualSlot>
+                        </LineOfSight>
+                        <ModuleModifier>
+                            <SimulationDescriptorReference Name="TopWeapon"/>
+                        </ModuleModifier>
+                        <UISlotName>UICoreWeapon07</UISlotName>
                     </WeaponSlot>
                     <Slot Name="Support01">
                         <RestrictedModuleCategory>Support</RestrictedModuleCategory>
@@ -770,16 +770,16 @@
                         <RestrictedWeaponType>Beam</RestrictedWeaponType>
                         <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
                         <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
-						<LineOfSight>
-							<Direction X="1" Z="0"/>
-							<Angle>120</Angle>
-							<VisualSlot Name="MDL_Wp_SmallSide_Right_01"></VisualSlot>
-						</LineOfSight>
-						<LineOfSight>
-							<Direction X="-1" Z="0"/>
-							<Angle>120</Angle>
-							<VisualSlot Name="MDL_Wp_SmallSide_Left_01"></VisualSlot>
-						</LineOfSight>
+                        <LineOfSight>
+                            <Direction X="1" Z="0"/>
+                            <Angle>120</Angle>
+                            <VisualSlot Name="MDL_Wp_SmallSide_Right_01"></VisualSlot>
+                        </LineOfSight>
+                        <LineOfSight>
+                            <Direction X="-1" Z="0"/>
+                            <Angle>120</Angle>
+                            <VisualSlot Name="MDL_Wp_SmallSide_Left_01"></VisualSlot>
+                        </LineOfSight>
                         <UISlotName>UIRightWeapon04</UISlotName>
                     </WeaponSlot>
                 </Section>
@@ -819,7 +819,7 @@
                 </Section>
             </SectionPattern_Eight>
         </ShipDesignLayout>
-      
+
         <BattleActionReference Name="Ship_UpdateMedalScoreAfterAttack"/>
         <BattleActionReference Name="Ship_UpdateMedalScoreAfterDamage"/>
         <BattleActionReference Name="Ship_Healing"/>
@@ -884,11 +884,11 @@
                         <RestrictedWeaponType>Beam</RestrictedWeaponType>
                         <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
                         <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
-						<LineOfSight>
-							<Direction X="0" Z="1"/>
-							<Angle>120</Angle>
-							<VisualSlot Name="MDL_Wp_Small_Up_00"></VisualSlot>
-						</LineOfSight>
+                        <LineOfSight>
+                            <Direction X="0" Z="1"/>
+                            <Angle>120</Angle>
+                            <VisualSlot Name="MDL_Wp_Small_Up_00"></VisualSlot>
+                        </LineOfSight>
                         <ModuleModifier>
                             <SimulationDescriptorReference Name="TopWeapon"/>
                         </ModuleModifier>
@@ -913,16 +913,16 @@
                         <RestrictedWeaponType>Beam</RestrictedWeaponType>
                         <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
                         <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
-						<LineOfSight>
-							<Direction X="1" Z="0"/>
-							<Angle>120</Angle>
-							<VisualSlot Name="MDL_Wp_SmallSide_Right_00"></VisualSlot>
-						</LineOfSight>
-						<LineOfSight>
-							<Direction X="-1" Z="0"/>
-							<Angle>120</Angle>
-							<VisualSlot Name="MDL_Wp_SmallSide_Left_00"></VisualSlot>
-						</LineOfSight>
+                        <LineOfSight>
+                            <Direction X="1" Z="0"/>
+                            <Angle>120</Angle>
+                            <VisualSlot Name="MDL_Wp_SmallSide_Right_00"></VisualSlot>
+                        </LineOfSight>
+                        <LineOfSight>
+                            <Direction X="-1" Z="0"/>
+                            <Angle>120</Angle>
+                            <VisualSlot Name="MDL_Wp_SmallSide_Left_00"></VisualSlot>
+                        </LineOfSight>
                         <UISlotName>UIRightWeapon03</UISlotName>
                     </WeaponSlot>
                 </Section>

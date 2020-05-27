@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroDefinition.xsd">
+    <HeroDefinition Name="HeroUnfallen01">
+        <Skill Name="HeroSkill01Unfallen01"/>
+        <Skill Name="HeroSkill02Unfallen01"/>
+
+        <Affinity Name="HeroAffinityUnfallen"/>
+        <Class Name="HeroClassAdministrator"/>
+        <Politics Name="HeroPolitics02"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeUnfallen"/>
+        <SkillTree Name="HeroSkillTreeAdministrator"/>
+        <SkillTree Name="HeroSkillTreeIdrinthScientist"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+
+    <HeroDefinition Name="HeroUnfallen02">
+        <Skill Name="HeroSkill01Unfallen02"/>
+        <Skill Name="HeroSkill02Unfallen02"/>
+
+        <Affinity Name="HeroAffinityUnfallen"/>
+        <Class Name="HeroClassAdventurer"/>
+        <Politics Name="HeroPolitics03"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeUnfallen"/>
+        <SkillTree Name="HeroSkillTreeAdventurer"/>
+        <SkillTree Name="HeroSkillTreeIdrinthPacifist"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+
+    <HeroDefinition Name="HeroUnfallen03">
+        <Skill Name="HeroSkill01Unfallen03"/>
+        <Skill Name="HeroSkill02Unfallen03"/>
+
+        <Affinity Name="HeroAffinityUnfallen"/>
+        <Class Name="HeroClassAdventurer"/>
+        <Politics Name="HeroPolitics01"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeUnfallen"/>
+        <SkillTree Name="HeroSkillTreeAdventurer"/>
+        <SkillTree Name="HeroSkillTreeIdrinthIndustrialist"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+
+    <HeroDefinition Name="HeroUnfallen04">
+        <Skill Name="HeroSkill01Unfallen04"/>
+        <Skill Name="HeroSkill02Unfallen04"/>
+
+        <Affinity Name="HeroAffinityUnfallen"/>
+        <Class Name="HeroClassAdmiral"/>
+        <Politics Name="HeroPolitics06"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeUnfallen"/>
+        <SkillTree Name="HeroSkillTreeAdmiral"/>
+        <SkillTree Name="HeroSkillTreeIdrinthMilitarist"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+
+</Datatable>

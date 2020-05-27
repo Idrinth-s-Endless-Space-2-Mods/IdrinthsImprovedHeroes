@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroDefinition.xsd">
+    <HeroDefinition Name="QuestHeroEndless01" Hidden="true">
+        <Skill Name="HeroSkill01QuestEndless01"/>
+        <Skill Name="HeroSkill02QuestEndless01"/>
+
+        <Affinity Name="HeroAffinityEndless"/>
+        <Class Name="HeroClassAdmiral"/>
+        <Politics Name="HeroPolitics05"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeEndless"/>
+        <SkillTree Name="HeroSkillTreeAdmiral"/>
+        <SkillTree Name="HeroSkillTreeIdrinthReligious"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+	
+    <HeroDefinition Name="QuestHeroEndless02" Hidden="true">
+        <Skill Name="HeroSkill01QuestEndless02"/>
+        <Skill Name="HeroSkill02QuestEndless02"/>
+
+        <Affinity Name="HeroAffinityEndless"/>
+        <Class Name="HeroClassAdventurer"/>
+        <Politics Name="HeroPolitics04"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeEndless"/>
+        <SkillTree Name="HeroSkillTreeAdventurer"/>
+        <SkillTree Name="HeroSkillTreeIdrinthEcologist"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+</Datatable>

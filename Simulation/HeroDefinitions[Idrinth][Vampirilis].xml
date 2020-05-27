@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroDefinition.xsd">
+    <HeroDefinition Name="HeroVampirilis01">
+        <Skill Name="HeroSkill01Vampirilis01"/>
+        <Skill Name="HeroSkill02Vampirilis01"/>
+
+        <Affinity Name="HeroAffinityVampirilis"/>
+        <Class Name="HeroClassAdmiral"/>
+        <Politics Name="HeroPolitics04"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeVampirilis"/>
+        <SkillTree Name="HeroSkillTreeAdmiral"/>
+        <SkillTree Name="HeroSkillTreeIdrinthEcologist"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+
+    <HeroDefinition Name="HeroVampirilis02">
+        <Skill Name="HeroSkill01Vampirilis02"/>
+        <Skill Name="HeroSkill02Vampirilis02"/>
+
+        <Affinity Name="HeroAffinityVampirilis"/>
+        <Class Name="HeroClassAdmiral"/>
+        <Politics Name="HeroPolitics05"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeVampirilis"/>
+        <SkillTree Name="HeroSkillTreeAdmiral"/>
+        <SkillTree Name="HeroSkillTreeIdrinthReligious"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+
+    <HeroDefinition Name="HeroVampirilis03">
+        <Skill Name="HeroSkill01Vampirilis03"/>
+        <Skill Name="HeroSkill02Vampirilis03"/>
+
+        <Affinity Name="HeroAffinityVampirilis"/>
+        <Class Name="HeroClassAdventurer"/>
+        <Politics Name="HeroPolitics02"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeVampirilis"/>
+        <SkillTree Name="HeroSkillTreeAdventurer"/>
+        <SkillTree Name="HeroSkillTreeIdrinthScientist"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+
+    <HeroDefinition Name="HeroVampirilis04">
+        <Skill Name="HeroSkill01Vampirilis04"/>
+        <Skill Name="HeroSkill02Vampirilis04"/>
+
+        <Affinity Name="HeroAffinityVampirilis"/>
+        <Class Name="HeroClassCorporate"/>
+        <Politics Name="HeroPolitics06"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeVampirilis"/>
+        <SkillTree Name="HeroSkillTreeCorporate"/>
+        <SkillTree Name="HeroSkillTreeIdrinthMilitarist"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+</Datatable>

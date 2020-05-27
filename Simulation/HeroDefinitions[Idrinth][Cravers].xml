@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroDefinition.xsd">
+    <HeroDefinition Name="HeroCravers01">
+        <Skill Name="HeroSkill01Cravers01"/>
+        <Skill Name="HeroSkill02Cravers01"/>
+
+        <Affinity Name="HeroAffinityCravers"/>
+        <Class Name="HeroClassAdmiral"/>
+        <Politics Name="HeroPolitics05"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeCravers"/>
+        <SkillTree Name="HeroSkillTreeAdmiral"/>
+        <SkillTree Name="HeroSkillTreeIdrinthReligious"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+
+    <HeroDefinition Name="HeroCravers02">
+        <Skill Name="HeroSkill01Cravers02"/>
+        <Skill Name="HeroSkill02Cravers02"/>
+
+        <Affinity Name="HeroAffinityCravers"/>
+        <Class Name="HeroClassAdministrator"/>
+        <Politics Name="HeroPolitics01"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeCravers"/>
+        <SkillTree Name="HeroSkillTreeAdministrator"/>
+        <SkillTree Name="HeroSkillTreeIdrinthIndustrialist"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+
+    <HeroDefinition Name="HeroCravers03">
+        <Skill Name="HeroSkill01Cravers03"/>
+        <Skill Name="HeroSkill02Cravers03"/>
+
+        <Affinity Name="HeroAffinityCravers"/>
+        <Class Name="HeroClassAdmiral"/>
+        <Politics Name="HeroPolitics06"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeCravers"/>
+        <SkillTree Name="HeroSkillTreeAdmiral"/>
+        <SkillTree Name="HeroSkillTreeIdrinthMilitarist"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+
+    <HeroDefinition Name="HeroCravers04">
+        <Skill Name="HeroSkill01Cravers04"/>
+        <Skill Name="HeroSkill02Cravers04"/>
+
+        <Affinity Name="HeroAffinityCravers"/>
+        <Class Name="HeroClassAdventurer"/>
+        <Politics Name="HeroPolitics03"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeCravers"/>
+        <SkillTree Name="HeroSkillTreeAdventurer"/>
+        <SkillTree Name="HeroSkillTreeIdrinthPacifist"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+
+    <HeroDefinition Name="HeroCraversPrime">
+        <Skill Name="HeroSkill01CraversPrime"/>
+        <Skill Name="HeroSkill02CraversPrime"/>
+
+        <Affinity Name="HeroAffinityCravers"/>
+        <Class Name="HeroClassAdministrator"/>
+        <Politics Name="HeroPolitics01"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeCravers"/>
+        <SkillTree Name="HeroSkillTreeAdministrator"/>
+        <SkillTree Name="HeroSkillTreeIdrinthEcologist"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+</Datatable>

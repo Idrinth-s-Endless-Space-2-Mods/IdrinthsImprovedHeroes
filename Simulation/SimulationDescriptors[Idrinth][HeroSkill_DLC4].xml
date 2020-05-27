@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
-  <SimulationDescriptor Name="HeroSkillSenator122_FIDSI_0" Type="HeroSkillSenator" IsSerializable="false">
-    <Property Name="FIDSI_PerHeroLevel" BaseValue="0.02"/>
-    <Modifier TargetProperty="FIDSI_PerHeroLevel" Operation="Multiplication" Value="$(SenatorSkillEffectDictatorshipMultiplier)" TooltipHidden="true"/>
-    <BinaryModifier TargetProperty="SystemFIDSIPercent"  Operation="Addition"        Left="$(FIDSI_PerHeroLevel)" BinaryOperation="Multiplication"  Right="$(AllianceCount)"  Path="../ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
-  </SimulationDescriptor>
+    <SimulationDescriptor Name="HeroSkillSenator122_FIDSI_0" Type="HeroSkillSenator" IsSerializable="false">
+        <Property Name="FIDSI_PerHeroLevel" BaseValue="0.02"/>
+        <Modifier TargetProperty="FIDSI_PerHeroLevel" Operation="Multiplication" Value="$(SenatorSkillEffectDictatorshipMultiplier)" TooltipHidden="true"/>
+        <BinaryModifier TargetProperty="SystemFIDSIPercent"  Operation="Addition"        Left="$(FIDSI_PerHeroLevel)" BinaryOperation="Multiplication"  Right="$(AllianceCount)"  Path="../ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+    </SimulationDescriptor>
 </Datatable>

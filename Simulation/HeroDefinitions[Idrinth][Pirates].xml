@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroDefinition.xsd">
+    <HeroDefinition Name="HeroSefaloros01">
+        <Skill Name="HeroSkill01Sefaloros01"/>
+        <Skill Name="HeroSkill02Sefaloros01"/>
+
+        <Affinity Name="HeroAffinityPirates"/>
+        <Class Name="HeroClassAdventurer"/>
+        <Politics Name="HeroPolitics01"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeMinorFaction01"/>
+        <SkillTree Name="HeroSkillTreeAdventurer"/>
+        <SkillTree Name="HeroSkillTreeIdrinthIndustrialist"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+    <HeroDefinition Name="HeroPirateLeader01" Hidden="true" IgnoreInstanceNumber="true">
+        <Skill Name="HeroSkill01PirateLeader01"/>
+        <Skill Name="HeroSkill02PirateLeader01"/>
+
+        <Affinity Name="HeroAffinityPirates"/>
+        <Class Name="HeroClassAdmiral"/>
+        <Politics Name="HeroPolitics06"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall01AttackerPirate"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeMinorFaction01"/>
+        <SkillTree Name="HeroSkillTreeAdmiral"/>
+        <SkillTree Name="HeroSkillTreeIdrinthMilitarist"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+    <HeroDefinition Name="HeroPirate01">
+        <Skill Name="HeroSkill01Pirate01"/>
+        <Skill Name="HeroSkill02Pirate01"/>
+
+        <Affinity Name="HeroAffinityPirates"/>
+        <Class Name="HeroClassAdventurer"/>
+        <Politics Name="HeroPolitics01"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeMinorFaction01"/>
+        <SkillTree Name="HeroSkillTreeAdventurer"/>
+        <SkillTree Name="HeroSkillTreeIdrinthIndustrialist"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+    <HeroDefinition Name="HeroPulsos01">
+        <Skill Name="HeroSkill01Pulsos01"/>
+        <Skill Name="HeroSkill02Pulsos01"/>
+
+        <Affinity Name="HeroAffinityPirates"/>
+        <Class Name="HeroClassAdventurer"/>
+        <Politics Name="HeroPolitics01"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeMinorFaction01"/>
+        <SkillTree Name="HeroSkillTreeAdventurer"/>
+        <SkillTree Name="HeroSkillTreeIdrinthIndustrialist"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+    <HeroDefinition Name="HeroHaroshems01">
+        <Skill Name="HeroSkill01Haroshems01"/>
+        <Skill Name="HeroSkill02Haroshems01"/>
+
+        <Affinity Name="HeroAffinityPirates"/>
+        <Class Name="HeroClassAdministrator"/>
+        <Politics Name="HeroPolitics04"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeMinorFaction01"/>
+        <SkillTree Name="HeroSkillTreeAdministrator"/>
+        <SkillTree Name="HeroSkillTreeIdrinthEcologist"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+    <HeroDefinition Name="HeroHaroshems02">
+        <Skill Name="HeroSkill01Haroshems02"/>
+        <Skill Name="HeroSkill02Haroshems02"/>
+
+        <Affinity Name="HeroAffinityPirates"/>
+        <Class Name="HeroClassAdventurer"/>
+        <Politics Name="HeroPolitics02"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeMinorFaction01"/>
+        <SkillTree Name="HeroSkillTreeAdventurer"/>
+        <SkillTree Name="HeroSkillTreeIdrinthScientist"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+    <HeroDefinition Name="HeroHisshos01">
+        <Skill Name="HeroSkill01Hisshos01"/>
+        <Skill Name="HeroSkill02Hisshos01"/>
+
+        <Affinity Name="HeroAffinityPirates"/>
+        <Class Name="HeroClassAdmiral"/>
+        <Politics Name="HeroPolitics06"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeMinorFaction01"/>
+        <SkillTree Name="HeroSkillTreeAdmiral"/>
+        <SkillTree Name="HeroSkillTreeIdrinthMilitarist"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>	
+    <HeroDefinition Name="HeroEyders01">
+        <Skill Name="HeroSkill01Eyders01"/>
+        <Skill Name="HeroSkill02Eyders01"/>
+
+        <Affinity Name="HeroAffinityPirates"/>
+        <Class Name="HeroClassCorporate"/>
+        <Politics Name="HeroPolitics05"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeMinorFaction01"/>
+        <SkillTree Name="HeroSkillTreeCorporate"/>
+        <SkillTree Name="HeroSkillTreeIdrinthReligious"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>	
+    <HeroDefinition Name="HeroQuestVirus01" Hidden="true">
+        <Skill Name="HeroSkill01QuestVirus01"/>
+        <Skill Name="HeroSkill02QuestVirus01"/>
+
+        <Affinity Name="HeroAffinityPirates"/>
+        <Class Name="HeroClassAdventurer"/>
+        <Politics Name="HeroPolitics05"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeMinorFaction01"/>
+        <SkillTree Name="HeroSkillTreeAdventurer"/>
+        <SkillTree Name="HeroSkillTreeIdrinthReligious"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+</Datatable>

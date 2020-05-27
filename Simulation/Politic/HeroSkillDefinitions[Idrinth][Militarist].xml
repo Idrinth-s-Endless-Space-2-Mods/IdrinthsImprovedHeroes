@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroSkillDefinition.xsd">
+    <HeroSkillDefinition Name="HeroSkillTreeIdrinthMilitarist01">
+        <SkillLevel Name="HeroSkillTreeIdrinthMilitarist01">
+            <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
+            <HeroSimulationDescriptorReference Name="HeroSkill_Idrinth_Military_InfantryHealthPerLevel"/>
+        </SkillLevel>
+        <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTreeIdrinthMilitarist02">
+        <SkillLevel Name="HeroSkillTreeIdrinthMilitarist02">
+            <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
+            <HeroSimulationDescriptorReference Name="HeroSkill_Idrinth_Military_DamagePerLevel"/>
+        </SkillLevel>
+        <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTreeIdrinthMilitarist03">
+        <SkillLevel Name="HeroSkillTreeIdrinthMilitarist03">
+            <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
+            <SystemSimulationDescriptorReference Name="HeroSkill_Idrinth_Military_DefendersPerLevel"/>
+        </SkillLevel>
+        <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTreeIdrinthMilitarist04">
+        <SkillLevel Name="HeroSkillTreeIdrinthMilitarist04">
+            <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
+            <HeroSimulationDescriptorReference Name="HeroSkill_Idrinth_Military_CPPercentPerLevel"/>
+        </SkillLevel>
+        <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+    </HeroSkillDefinition>
+</Datatable>

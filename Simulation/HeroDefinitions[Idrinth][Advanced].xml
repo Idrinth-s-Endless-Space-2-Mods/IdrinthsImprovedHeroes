@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroDefinition.xsd">
+    <HeroDefinition Name="HeroBurraTechseeker01">
+        <Skill Name="HeroSkill01HeroBurraTechseeker01"/> <!-- This skill also contains a tag -->
+        <Skill Name="HeroSkill02HeroBurraTechseeker01"/>
+
+        <Affinity Name="HeroAffinityAdvanced"/>
+        <Class Name="HeroClassAdministrator"/>
+        <Politics Name="HeroPolitics03"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeMinorFaction03"/>
+        <SkillTree Name="HeroSkillTreeAdministrator"/>
+        <SkillTree Name="HeroSkillTreeIdrinthPacifist"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+    <HeroDefinition Name="HeroGalvrans01">
+        <Skill Name="HeroSkill01Galvrans01"/>
+        <Skill Name="HeroSkill02Galvrans01"/>
+
+        <Affinity Name="HeroAffinityAdvanced"/>
+        <Class Name="HeroClassCorporate"/>
+        <Politics Name="HeroPolitics02"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeMinorFaction03"/>
+        <SkillTree Name="HeroSkillTreeCorporate"/>
+        <SkillTree Name="HeroSkillTreeIdrinthScientist"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+    <HeroDefinition Name="HeroOraculars01">
+        <Skill Name="HeroSkill01Illo01"/>
+        <Skill Name="HeroSkill02Eyders01"/>
+
+        <Affinity Name="HeroAffinityAdvanced"/>
+        <Class Name="HeroClassAdministrator"/>
+        <Politics Name="HeroPolitics05"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeMinorFaction03"/>
+        <SkillTree Name="HeroSkillTreeAdministrator"/>
+        <SkillTree Name="HeroSkillTreeIdrinthReligious"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+    <HeroDefinition Name="HeroIllo01">
+        <Skill Name="HeroSkill01Illo01"/>
+        <Skill Name="HeroSkill02Illo01"/>
+
+        <Affinity Name="HeroAffinityAdvanced"/>
+        <Class Name="HeroClassAdministrator"/>
+        <Politics Name="HeroPolitics03"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeMinorFaction03"/>
+        <SkillTree Name="HeroSkillTreeAdministrator"/>
+        <SkillTree Name="HeroSkillTreeIdrinthPacifist"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+    <HeroDefinition Name="HeroBots01">
+        <Skill Name="HeroSkill01Bots01"/>
+        <Skill Name="HeroSkill02Bots01"/>
+
+        <Affinity Name="HeroAffinityAdvanced"/>
+        <Class Name="HeroClassAdventurer"/>
+        <Politics Name="HeroPolitics04"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeMinorFaction03"/>
+        <SkillTree Name="HeroSkillTreeAdventurer"/>
+        <SkillTree Name="HeroSkillTreeIdrinthEcologist"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+    <HeroDefinition Name="HeroArchivist01">
+        <Skill Name="HeroSkill01HeroArchivist01"/>
+        <Skill Name="HeroSkill02HeroArchivist01"/>
+
+        <StatisticPrerequisite MinimumValue="1" MaximumValue="1">ARCH_POINTS</StatisticPrerequisite>
+
+        <Affinity Name="HeroAffinityAdvanced"/>
+        <Class Name="HeroClassAdventurer"/>
+        <Politics Name="HeroPolitics02"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeMinorFaction03"/>
+        <SkillTree Name="HeroSkillTreeAdventurer"/>
+        <SkillTree Name="HeroSkillTreeIdrinthScientist"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+    <HeroDefinition Name="HeroZvali01">
+        <Skill Name="HeroSkill01Zvali01"/>
+        <Skill Name="HeroSkill02Zvali01"/>
+
+        <Affinity Name="HeroAffinityAdvanced"/>
+        <Class Name="HeroClassAdministrator"/>
+        <Politics Name="HeroPolitics02"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeMinorFaction03"/>
+        <SkillTree Name="HeroSkillTreeAdministrator"/>
+        <SkillTree Name="HeroSkillTreeIdrinthScientist"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+    <HeroDefinition Name="HeroPilgrims01">
+        <Skill Name="HeroSkill01Pilgrims01"/>
+        <Skill Name="HeroSkill02Pilgrims01"/>
+
+        <Affinity Name="HeroAffinityAdvanced"/>
+        <Class Name="HeroClassAdmiral"/>
+        <Politics Name="HeroPolitics05"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeMinorFaction03"/>
+        <SkillTree Name="HeroSkillTreeAdmiral"/>
+        <SkillTree Name="HeroSkillTreeIdrinthReligious"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+    <HeroDefinition Name="HeroMavros01">
+        <Skill Name="HeroSkill01Mavros01"/>
+        <Skill Name="HeroSkill02Mavros01"/>
+
+        <Affinity Name="HeroAffinityAdvanced"/>
+        <Class Name="HeroClassAdmiral"/>
+        <Politics Name="HeroPolitics01"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeMinorFaction03"/>
+        <SkillTree Name="HeroSkillTreeAdmiral"/>
+        <SkillTree Name="HeroSkillTreeIdrinthIndustrialist"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+</Datatable>

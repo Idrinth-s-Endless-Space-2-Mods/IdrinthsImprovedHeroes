@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroSkillTreeDefinition.xsd">
+    <HeroSkillTreeDefinition Name="HeroSkillTreeIdrinthScientist">
+        <Stage Level="0">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTreeIdrinthScientist01"/>
+            </Skill>
+        </Stage>
+        <Stage Level="4">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTreeIdrinthScientist02"/>
+            </Skill>
+        </Stage>
+        <Stage Level="8">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTreeIdrinthScientist03"/>
+            </Skill>
+        </Stage>
+        <Stage Level="12">
+            <Skill>
+                <SkillDefinition Name="HeroSkillTreeIdrinthScientist04"/>
+            </Skill>
+        </Stage>
+    </HeroSkillTreeDefinition>
+</Datatable>

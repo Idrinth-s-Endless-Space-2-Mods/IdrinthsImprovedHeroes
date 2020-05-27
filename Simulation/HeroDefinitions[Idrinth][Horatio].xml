@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroDefinition.xsd">
+    <HeroDefinition Name="HeroQuestHoratio04" Hidden="true">
+        <Skill Name="HeroSkill01HoratioQuest04"/>
+        <Skill Name="HeroSkill02HoratioQuest04"/>
+
+        <Affinity Name="HeroAffinityHoratio"/>
+        <Class Name="HeroClassAdmiral"/>
+        <Politics Name="HeroPolitics06"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeHoratio"/>
+        <SkillTree Name="HeroSkillTreeAdmiral"/>
+        <SkillTree Name="HeroSkillTreeIdrinthMilitarist"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+
+    <HeroDefinition Name="HeroHoratio01">
+        <Skill Name="HeroSkill01Horatio01"/>
+        <Skill Name="HeroSkill02Horatio01"/>
+		
+        <Affinity Name="HeroAffinityHoratio"/>
+        <Class Name="HeroClassAdministrator"/>
+        <Politics Name="HeroPolitics04"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeHoratio"/>
+        <SkillTree Name="HeroSkillTreeAdministrator"/>
+        <SkillTree Name="HeroSkillTreeIdrinthEcologist"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+
+    <HeroDefinition Name="HeroHoratio02">
+        <Skill Name="HeroSkill01Horatio02"/>
+        <Skill Name="HeroSkill02Horatio02"/>
+		
+        <Affinity Name="HeroAffinityHoratio"/>
+        <Class Name="HeroClassAdventurer"/>
+        <Politics Name="HeroPolitics02"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeHoratio"/>
+        <SkillTree Name="HeroSkillTreeAdventurer"/>
+        <SkillTree Name="HeroSkillTreeIdrinthScientist"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+
+    <HeroDefinition Name="HeroHoratio03">
+        <Skill Name="HeroSkill01Horatio03"/>
+        <Skill Name="HeroSkill02Horatio03"/>
+		
+        <Affinity Name="HeroAffinityHoratio"/>
+        <Class Name="HeroClassCorporate"/>
+        <Politics Name="HeroPolitics06"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeHoratio"/>
+        <SkillTree Name="HeroSkillTreeCorporate"/>
+        <SkillTree Name="HeroSkillTreeIdrinthMilitarist"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+
+    <HeroDefinition Name="HeroHoratio04">
+        <Skill Name="HeroSkill01Horatio04"/>
+        <Skill Name="HeroSkill02Horatio04"/>
+		
+        <Affinity Name="HeroAffinityHoratio"/>
+        <Class Name="HeroClassCorporate"/>
+        <Politics Name="HeroPolitics05"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeHoratio"/>
+        <SkillTree Name="HeroSkillTreeCorporate"/>
+        <SkillTree Name="HeroSkillTreeIdrinthReligious"/>
+
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+</Datatable>

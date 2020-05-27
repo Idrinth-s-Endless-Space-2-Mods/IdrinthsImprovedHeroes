@@ -5,7 +5,7 @@
             <HeroSimulationDescriptorReference Name="HeroSkill_Idrinth_CommanderOfGreatFleets_Ship"/>
             <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
         </SkillLevel>
-      <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+        <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
     </HeroSkillDefinition>
 
     <HeroSkillDefinition Name="HeroSkill02BranchAdmiralIdrinth">
@@ -13,6 +13,6 @@
             <HeroSimulationDescriptorReference Name="HeroSkill_Idrinth_KillerOfFiends_Ship"/>
             <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
         </SkillLevel>
-      <HeroSimulationDescriptorReference Name="HeroMasteryCuriosity"/>
+        <HeroSimulationDescriptorReference Name="HeroMasteryCuriosity"/>
     </HeroSkillDefinition>
 </Datatable>

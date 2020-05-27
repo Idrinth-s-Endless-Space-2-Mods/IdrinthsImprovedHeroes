@@ -1,0 +1,10 @@
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Documentation/Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+    <ExtendedGuiElement Name="HeroSkill01BranchAdministratorIdrinth">
+        <Title>%HeroSkillIdrinthOptimizedBookkeeping_Title</Title>
+        <Description>%HeroSkillIdrinthOptimizedBookkeeping_Description</Description>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="HeroSkill02BranchAdministratorIdrinth">
+        <Title>%HeroSkillIdrinthTaxesAndReturns_Title</Title>
+        <Description>%HeroSkillIdrinthTaxesAndReturns_Description</Description>
+    </ExtendedGuiElement>
+</Datatable>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroSkillDefinition.xsd">
+    <HeroSkillDefinition Name="HeroSkillTreeIdrinthScientist01">
+        <SkillLevel Name="HeroSkillTreeIdrinthScientist01">
+            <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
+            <HeroSimulationDescriptorReference Name="HeroSkill_Idrinth_Science_SciencePerLevel"/>
+        </SkillLevel>
+        <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTreeIdrinthScientist02">
+        <SkillLevel Name="HeroSkillTreeIdrinthScientist02">
+            <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
+            <SystemSimulationDescriptorReference Name="HeroSkill_Idrinth_Science_SciencePercentPerLevel"/>
+        </SkillLevel>
+        <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTreeIdrinthScientist03">
+        <SkillLevel Name="HeroSkillTreeIdrinthScientist03">
+            <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
+            <HeroSimulationDescriptorReference Name="HeroSkill_Idrinth_Science_ViewRangePerLevel"/>
+            <SystemSimulationDescriptorReference Name="HeroSkill_Idrinth_Science_ViewRangePerLevel_System"/>
+        </SkillLevel>
+        <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTreeIdrinthScientist04">
+        <SkillLevel Name="HeroSkillTreeIdrinthScientist04">
+            <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
+            <HeroSimulationDescriptorReference Name="HeroSkill_Idrinth_Science_MaximumMovementPercentPerLevel"/>
+        </SkillLevel>
+        <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+    </HeroSkillDefinition>
+</Datatable>

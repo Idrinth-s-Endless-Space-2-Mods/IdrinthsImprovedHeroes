@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+    <SimulationDescriptor Name="HeroSkill_Idrinth_Military_InfantryHealthPerLevel" Type="HeroSkill" IsSerializable="false">
+        <BinaryModifier TargetProperty="InfantryMaxHealth" Path="../ClassEmpire" Left="0.01" Right="$(Level)" BinaryOperation="Multiplication" Operation="Percent"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="HeroSkill_Idrinth_Military_DamagePerLevel" Type="HeroSkill" IsSerializable="false">
+        <BinaryModifier TargetProperty="Damage" Path="../ClassGarrisonFleet/ClassShip" Left="0.01" Right="$(Level)" BinaryOperation="Multiplication" Operation="Percent"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="HeroSkill_Idrinth_Military_DefendersPerLevel" Type="HeroSkillSystem" IsSerializable="false">
+        <BinaryModifier TargetProperty="GroundBattleDefenderManpowerLimitBonus" Operation="Addition" Left="0.015" Right="$(AssignedHeroLevel)" BinaryOperation="Multiplication" Path="ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="HeroSkill_Idrinth_Military_CPPercentPerLevel" Type="HeroSkill" IsSerializable="false">
+        <BinaryModifier TargetProperty="MaximumCommandPoints" Path="../ClassEmpire" Left="0.01" Right="$(Level)" BinaryOperation="Multiplication" Operation="Percent"/>
+    </SimulationDescriptor>
+</Datatable>

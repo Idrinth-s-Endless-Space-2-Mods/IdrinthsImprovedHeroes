@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+    <ExtendedGuiElement Name="HeroSkillTreeIdrinthEcologist">
+        <Title>%HeroSkillTreeIdrinthEcologistTitle</Title>
+        <Description>%HeroSkillTreeIdrinthEcologistDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="/Atlased/Hero/HeroesHeroesSmall" />
+        </Icons>
+        <Color Red="168" Green="168" Blue="20" Alpha="255"/>
+    </ExtendedGuiElement>
+    <GuiElement Name="CategoryHeroSkillTreeIdrinthEcologist">
+        <Title>%HeroSkillTreeIdrinthEcologistTitle</Title>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Hero/HeroesHeroesSmall" />
+        </Icons>
+    </GuiElement>
+
+    <ExtendedGuiElement Name="HeroSkillTreeIdrinthIndustrialist">
+        <Title>%HeroSkillTreeIdrinthIndustrialistTitle</Title>
+        <Description>%HeroSkillTreeIdrinthIndustrialistDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="/Atlased/Hero/HeroesHeroesSmall" />
+        </Icons>
+        <Color Red="168" Green="168" Blue="20" Alpha="255"/>
+    </ExtendedGuiElement>
+    <GuiElement Name="CategoryHeroSkillTreeIdrinthIndustrialist">
+        <Title>%HeroSkillTreeIdrinthIndustrialistTitle</Title>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Hero/HeroesHeroesSmall" />
+        </Icons>
+    </GuiElement>
+
+    <ExtendedGuiElement Name="HeroSkillTreeIdrinthPacifist">
+        <Title>%HeroSkillTreeIdrinthPacifistTitle</Title>
+        <Description>%HeroSkillTreeIdrinthPacifistDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="/Atlased/Hero/HeroesHeroesSmall" />
+        </Icons>
+        <Color Red="168" Green="168" Blue="20" Alpha="255"/>
+    </ExtendedGuiElement>
+    <GuiElement Name="CategoryHeroSkillTreeIdrinthPacifist">
+        <Title>%HeroSkillTreeIdrinthPacifistTitle</Title>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Hero/HeroesHeroesSmall" />
+        </Icons>
+    </GuiElement>
+
+    <ExtendedGuiElement Name="HeroSkillTreeIdrinthMilitarist">
+        <Title>%HeroSkillTreeIdrinthMilitaristTitle</Title>
+        <Description>%HeroSkillTreeIdrinthMilitaristDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="/Atlased/Hero/HeroesHeroesSmall" />
+        </Icons>
+        <Color Red="168" Green="168" Blue="20" Alpha="255"/>
+    </ExtendedGuiElement>
+    <GuiElement Name="CategoryHeroSkillTreeIdrinthMilitarist">
+        <Title>%HeroSkillTreeIdrinthMilitaristTitle</Title>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Hero/HeroesHeroesSmall" />
+        </Icons>
+    </GuiElement>
+
+    <ExtendedGuiElement Name="HeroSkillTreeIdrinthScientist">
+        <Title>%HeroSkillTreeIdrinthScientistTitle</Title>
+        <Description>%HeroSkillTreeIdrinthScientistDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="/Atlased/Hero/HeroesHeroesSmall" />
+        </Icons>
+        <Color Red="168" Green="168" Blue="20" Alpha="255"/>
+    </ExtendedGuiElement>
+    <GuiElement Name="CategoryHeroSkillTreeIdrinthScientist">
+        <Title>%HeroSkillTreeIdrinthScientistTitle</Title>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Hero/HeroesHeroesSmall" />
+        </Icons>
+    </GuiElement>
+
+    <ExtendedGuiElement Name="HeroSkillTreeIdrinthReligious">
+        <Title>%HeroSkillTreeIdrinthReligiousTitle</Title>
+        <Description>%HeroSkillTreeIdrinthReligiousDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="/Atlased/Hero/HeroesHeroesSmall" />
+        </Icons>
+        <Color Red="168" Green="168" Blue="20" Alpha="255"/>
+    </ExtendedGuiElement>
+    <GuiElement Name="CategoryHeroSkillTreeIdrinthReligious">
+        <Title>%HeroSkillTreeIdrinthReligiousTitle</Title>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Hero/HeroesHeroesSmall" />
+        </Icons>
+    </GuiElement>
+</Datatable>

@@ -1,0 +1,18 @@
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Documentation/Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+    <ExtendedGuiElement Name="HeroSkillTreeIdrinthScientist01">
+        <Title>%HeroSkillTreeIdrinthScientist01_Title</Title>
+        <Description>%HeroSkillTreeIdrinthScientist01_Description</Description>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="HeroSkillTreeIdrinthScientist02">
+        <Title>%HeroSkillTreeIdrinthScientist02_Title</Title>
+        <Description>%HeroSkillTreeIdrinthScientist02_Description</Description>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="HeroSkillTreeIdrinthScientist03">
+        <Title>%HeroSkillTreeIdrinthScientist03_Title</Title>
+        <Description>%HeroSkillTreeIdrinthScientist03_Description</Description>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="HeroSkillTreeIdrinthScientist04">
+        <Title>%HeroSkillTreeIdrinthScientist04_Title</Title>
+        <Description>%HeroSkillTreeIdrinthScientist04_Description</Description>
+    </ExtendedGuiElement>
+</Datatable>

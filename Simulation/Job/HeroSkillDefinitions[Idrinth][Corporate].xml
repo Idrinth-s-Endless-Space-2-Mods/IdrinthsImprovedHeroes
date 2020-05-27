@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroSkillDefinition.xsd">
+    <HeroSkillDefinition Name="HeroSkill01BranchCorporateIdrinth">
+        <SkillLevel Name="HeroSkillIdrinthSaveAndSound">
+            <SystemSimulationDescriptorReference Name="HeroSkill_Idrinth_SaveAndSound_System"/>
+            <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
+        </SkillLevel>
+        <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+    </HeroSkillDefinition>
+
+    <HeroSkillDefinition Name="HeroSkill02BranchCorporateIdrinth">
+        <SkillLevel Name="HeroSkillIdrinthAVoiceToCharm">
+            <SystemSimulationDescriptorReference Name="HeroSkill_Idrinth_AVoiceToCharm_System"/>
+            <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
+        </SkillLevel>
+        <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+    </HeroSkillDefinition>
+</Datatable>

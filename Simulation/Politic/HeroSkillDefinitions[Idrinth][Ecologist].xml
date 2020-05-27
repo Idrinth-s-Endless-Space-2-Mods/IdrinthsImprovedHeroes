@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroSkillDefinition.xsd">
+    <HeroSkillDefinition Name="HeroSkillTreeIdrinthEcologist01">
+        <SkillLevel Name="HeroSkillTreeIdrinthEcologist01">
+            <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
+            <SystemSimulationDescriptorReference Name="HeroSkill_Idrinth_Ecology_FoodPerLevel_System"/>
+        </SkillLevel>
+        <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTreeIdrinthEcologist02">
+        <SkillLevel Name="HeroSkillTreeIdrinthEcologist02">
+            <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
+            <HeroSimulationDescriptorReference Name="HeroSkill_Idrinth_Ecology_ShieldHealthPerLevel"/>
+        </SkillLevel>
+        <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTreeIdrinthEcologist03">
+        <SkillLevel Name="HeroSkillTreeIdrinthEcologist03">
+            <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
+            <HeroSimulationDescriptorReference Name="HeroSkill_Idrinth_Ecology_InfantryHealthPerLevel"/>
+        </SkillLevel>
+        <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+    </HeroSkillDefinition>
+    <HeroSkillDefinition Name="HeroSkillTreeIdrinthEcologist04">
+        <SkillLevel Name="HeroSkillTreeIdrinthEcologist04">
+            <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
+            <SystemSimulationDescriptorReference Name="HeroSkill_Idrinth_Ecology_FoodPercentPerLevel_System"/>
+        </SkillLevel>
+        <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+    </HeroSkillDefinition>
+</Datatable>

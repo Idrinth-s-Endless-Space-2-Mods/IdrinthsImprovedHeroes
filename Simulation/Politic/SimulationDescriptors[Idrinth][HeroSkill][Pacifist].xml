@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+    <SimulationDescriptor Name="HeroSkill_Idrinth_Pacifist_MoneyPerLevel" Type="HeroSkill" IsSerializable="false">
+        <BinaryModifier TargetProperty="NetEmpireMoney" Operation="Addition" Path="../ClassEmpire" Left="4" Right="$(Level)" BinaryOperation="Multiplication"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="HeroSkill_Idrinth_Pacifist_HappinessPerLevel" Type="HeroSkillSystem" IsSerializable="false">
+        <BinaryModifier TargetProperty="Happiness" Operation="Addition" Path="ClassColonizedStarSystem" Left="0.1" Right="$(AssignedHeroLevel)" BinaryOperation="Multiplication"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="HeroSkill_Idrinth_Pacifist_MoneyPercentPerLevel" Type="HeroSkillSystem" IsSerializable="false">
+        <BinaryModifier TargetProperty="NetSystemMoney" Operation="Percent" Path="ClassStarSystem" Left="0.01" Right="$(AssignedHeroLevel)" BinaryOperation="Multiplication"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="HeroSkill_Idrinth_Pacifist_ShipHealthPerLevel" Type="HeroSkill" IsSerializable="false">
+        <BinaryModifier TargetProperty="MaximumHealth" Operation="Addition" Path="../ClassGarrisonFleet/ClassShip/ClassSectionCore" Left="100" Right="$(Level)" BinaryOperation="Multiplication"/>
+    </SimulationDescriptor>
+</Datatable>
