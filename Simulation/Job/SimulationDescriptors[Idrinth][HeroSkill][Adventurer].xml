@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
     <SimulationDescriptor Name="HeroSkill_Idrinth_CommanderOfWelltrainedShips_Ship" Type="HeroSkill" IsSerializable="false">
-        <Property Name="AssignedHeroLevel" MinValue="9" BaseVaue="9"/>
         <BinaryModifier TargetProperty="Cooldown" Operation="Percent" Left="-0.01" Right="9" BinaryOperation="Multiplication" Priority="19" Path="./ClassGarrisonFleet"/>
     </SimulationDescriptor>
 

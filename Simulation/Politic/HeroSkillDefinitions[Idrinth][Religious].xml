@@ -2,30 +2,30 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroSkillDefinition.xsd">
     <HeroSkillDefinition Name="HeroSkillTreeIdrinthReligious01">
         <SkillLevel Name="HeroSkillTreeIdrinthReligious01">
+            <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
             <HeroSimulationDescriptorReference Name="HeroSkill_Idrinth_Religious_EmpirePointsPerLevel"/>
             <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
         </SkillLevel>
-        <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
     </HeroSkillDefinition>
     <HeroSkillDefinition Name="HeroSkillTreeIdrinthReligious02">
         <SkillLevel Name="HeroSkillTreeIdrinthReligious02">
+            <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
             <HeroSimulationDescriptorReference Name="HeroSkill_Idrinth_Religious_MovementPerLevel"/>
             <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
         </SkillLevel>
-        <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
     </HeroSkillDefinition>
     <HeroSkillDefinition Name="HeroSkillTreeIdrinthReligious03">
         <SkillLevel Name="HeroSkillTreeIdrinthReligious03">
+            <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
             <HeroSimulationDescriptorReference Name="HeroSkill_Idrinth_Religious_DamagePerLevel"/>
             <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
         </SkillLevel>
-        <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
     </HeroSkillDefinition>
     <HeroSkillDefinition Name="HeroSkillTreeIdrinthReligious04">
         <SkillLevel Name="HeroSkillTreeIdrinthReligious04">
+            <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
             <SystemSimulationDescriptorReference Name="HeroSkill_Idrinth_EmpirePointPercentPerLevel"/>
             <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
         </SkillLevel>
-        <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
     </HeroSkillDefinition>
 </Datatable>

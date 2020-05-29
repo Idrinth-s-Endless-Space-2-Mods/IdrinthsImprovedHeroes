@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
     <SimulationDescriptor Name="HeroSkill_Idrinth_Science_SciencePerLevel" Type="HeroSkill" IsSerializable="false">
-        <BinaryModifier TargetProperty="NetEmpireResearch" Operation="Addition" Left="4" BinaryOperation="Multiplication" Right="$(Level)" Patch="../ClassEmpire"/>
+        <BinaryModifier TargetProperty="NetEmpireResearch" Operation="Addition" Left="4" BinaryOperation="Multiplication" Right="$(Level)" Path="../ClassEmpire"/>
     </SimulationDescriptor>
     <SimulationDescriptor Name="HeroSkill_Idrinth_Science_SciencePercentPerLevel" Type="HeroSkillSystem" IsSerializable="false">
-        <BinaryModifier TargetProperty="NetSystemResearch" Operation="Percent" Left="0.01" BinaryOperation="Multiplication" Right="$(AssignedHeroLevel)" Patch="../ClassColonizedStarSystem"/>
+        <BinaryModifier TargetProperty="NetSystemResearch" Operation="Percent" Left="0.01" BinaryOperation="Multiplication" Right="$(AssignedHeroLevel)" Path="../ClassColonizedStarSystem"/>
     </SimulationDescriptor>
     <SimulationDescriptor Name="HeroSkill_Idrinth_Science_ViewRangePerLevel" Type="HeroSkill" IsSerializable="false">
         <BinaryModifier TargetProperty="VisionRange" Path="../ClassGarrisonFleet" Operation="Percent" Left="0.01" BinaryOperation="Multiplication" Right="$(Level)"/>

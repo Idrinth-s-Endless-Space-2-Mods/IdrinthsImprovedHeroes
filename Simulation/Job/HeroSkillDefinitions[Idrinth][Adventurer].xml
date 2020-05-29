@@ -3,16 +3,16 @@
     <HeroSkillDefinition Name="HeroSkill01BranchAdventurerIdrinth">
         <SkillLevel Name="HeroSkillIdrinthCommanderOfWelltrainedShips">
             <HeroSimulationDescriptorReference Name="HeroSkill_Idrinth_CommanderOfWelltrainedShips_Ship"/>
+            <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
             <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
         </SkillLevel>
-        <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
     </HeroSkillDefinition>
 
     <HeroSkillDefinition Name="HeroSkill02BranchAdventurerIdrinth">
         <SkillLevel Name="HeroSkillIdrinthAllPowerToShields">
             <HeroSimulationDescriptorReference Name="HeroSkill_Idrinth_AllPowerToShields_Ship"/>
+            <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
             <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
         </SkillLevel>
-        <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
     </HeroSkillDefinition>
 </Datatable>

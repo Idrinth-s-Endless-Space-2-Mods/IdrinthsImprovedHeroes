@@ -2,17 +2,17 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroSkillDefinition.xsd">
     <HeroSkillDefinition Name="HeroSkill01BranchAdministratorIdrinth">
         <SkillLevel Name="HeroSkillIdrinthOptimizedBookkeeping">
+            <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
             <SystemSimulationDescriptorReference Name="HeroSkill_Idrinth_OptimizedBookkeeping_System"/>
             <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
         </SkillLevel>
-        <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
     </HeroSkillDefinition>
 
     <HeroSkillDefinition Name="HeroSkill02BranchAdministratorIdrinth">
         <SkillLevel Name="HeroSkillIdrinthTaxesAndReturns">
+            <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
             <SystemSimulationDescriptorReference Name="HeroSkill_Idrinth_TaxesAndReturns"/>
             <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
         </SkillLevel>
-        <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
     </HeroSkillDefinition>
 </Datatable>

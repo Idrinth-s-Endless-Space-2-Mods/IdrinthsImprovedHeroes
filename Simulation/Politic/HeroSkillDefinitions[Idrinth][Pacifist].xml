@@ -2,30 +2,30 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroSkillDefinition.xsd">
     <HeroSkillDefinition Name="HeroSkillTreeIdrinthPacifist01">
         <SkillLevel Name="HeroSkillTreeIdrinthPacifist01">
-            <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
             <HeroSimulationDescriptorReference Name="HeroSkill_Idrinth_Pacifist_MoneyPerLevel"/>
+            <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+            <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
         </SkillLevel>
-        <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
     </HeroSkillDefinition>
     <HeroSkillDefinition Name="HeroSkillTreeIdrinthPacifist02">
         <SkillLevel Name="HeroSkillTreeIdrinthPacifist02">
-            <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
+            <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
             <SystemSimulationDescriptorReference Name="HeroSkill_Idrinth_Pacifist_HappinessPerLevel"/>
+            <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
         </SkillLevel>
-        <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
     </HeroSkillDefinition>
     <HeroSkillDefinition Name="HeroSkillTreeIdrinthPacifist03">
         <SkillLevel Name="HeroSkillTreeIdrinthPacifist03">
-            <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
+            <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
             <SystemSimulationDescriptorReference Name="HeroSkill_Idrinth_Pacifist_MoneyPercentPerLevel"/>
+            <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
         </SkillLevel>
-        <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
     </HeroSkillDefinition>
     <HeroSkillDefinition Name="HeroSkillTreeIdrinthPacifist04">
         <SkillLevel Name="HeroSkillTreeIdrinthPacifist04">
-            <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
             <HeroSimulationDescriptorReference Name="HeroSkill_Idrinth_Pacifist_ShipHealthPerLevel"/>
+            <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
+            <MasteryLevel Class="HeroMasteryLevelscaling" Levels="1"/>
         </SkillLevel>
-        <HeroSimulationDescriptorReference Name="HeroSkillComplete"/>
     </HeroSkillDefinition>
 </Datatable>
