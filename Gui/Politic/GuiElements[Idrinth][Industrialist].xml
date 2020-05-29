@@ -1,4 +1,4 @@
-<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Documentation/Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
     <ExtendedGuiElement Name="HeroSkillTreeIdrinthIndustrialist01">
         <Title>%HeroSkillTreeIdrinthIndustrialist01_Title</Title>
         <Description>%HeroSkillTreeIdrinthIndustrialist01_Description</Description>
