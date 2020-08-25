@@ -10,6 +10,6 @@
         <BinaryModifier TargetProperty="Damage" Path="../ClassGarrisonFleet/ClassShip" Operation="Percent" Left="0.01" BinaryOperation="Multiplication" Right="$(Level)"/>
     </SimulationDescriptor>
     <SimulationDescriptor Name="HeroSkill_Idrinth_EmpirePointPercentPerLevel" Type="HeroSkillSystem" IsSerializable="false">
-        <BinaryModifier TargetProperty="NetSystemEmpirePoint" Path="ClassStarSystem" Operation="Percent" Left="0.01" BinaryOperation="Multiplication" Right="$(Level)"/>
+        <BinaryModifier TargetProperty="NetSystemEmpirePoint" Path="ClassStarSystem" Operation="Percent" Left="0.01" BinaryOperation="Multiplication" Right="$(AssignedHeroLevel)"/>
     </SimulationDescriptor>
 </Datatable>
