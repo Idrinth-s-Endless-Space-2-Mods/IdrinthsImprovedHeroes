@@ -10,6 +10,6 @@
         <BinaryModifier TargetProperty="GroundBattleDefenderManpowerLimitBonus" Operation="Addition" Left="0.015" Right="$(AssignedHeroLevel)" BinaryOperation="Multiplication" Path="ClassColonizedStarSystem"/>
     </SimulationDescriptor>
     <SimulationDescriptor Name="HeroSkill_Idrinth_Military_CPPercentPerLevel" Type="HeroSkill" IsSerializable="false">
-        <BinaryModifier TargetProperty="MaximumCommandPoints" Path="../ClassEmpire" Left="0.01" Right="$(Level)" BinaryOperation="Multiplication" Operation="Percent"/>
+        <BinaryModifier TargetProperty="MaximumCommandPoints" Path="../ClassEmpire" Left="0.1" Right="$(Level)" BinaryOperation="Multiplication" Operation="Addition"/>
     </SimulationDescriptor>
 </Datatable>
